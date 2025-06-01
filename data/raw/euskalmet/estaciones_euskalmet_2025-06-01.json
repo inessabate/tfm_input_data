@@ -1,0 +1,3627 @@
+{
+  "type": "FeatureCollection",
+  "name": "Red de estaciones meteorológicas de Euskadi",
+  "features": [
+    {
+      "id": 1,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.08474,
+          43.3774903
+        ]
+      },
+      "properties": {
+        "codigo": "B090",
+        "nombre": "Puerto de Bilbao",
+        "descripcion": "Situada en la punta del dique de Punta Lucero",
+        "tipo": "B",
+        "fechacreacion": "03/10/2003",
+        "municipio": "Santurtzi",
+        "provincia": "Bizkaia",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_b090/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_b090/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_b090/es_station/data/es_r01dtpd017ddc1b2edce292a67b208f2625143b92c",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_b090/r01Index/station_b090-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_b090/opendata/station_b090.zip"
+      }
+    },
+    {
+      "id": 2,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.89916,
+          43.4357871
+        ]
+      },
+      "properties": {
+        "codigo": "B091",
+        "nombre": "Puerto de Armintza",
+        "descripcion": "Situada en la cofradía del puerto de Armintza",
+        "tipo": "B",
+        "fechacreacion": "03/10/2003",
+        "fechabaja": "01/01/2006",
+        "municipio": "Lemoiz",
+        "provincia": "Bizkaia",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_b091/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_b091/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_b091/es_station/data/es_r01dtpd017ddc1b2ee1e292a671e5116cffaef2f44",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_b091/r01Index/station_b091-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_b091/opendata/station_b091.zip"
+      }
+    },
+    {
+      "id": 3,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.70981,
+          43.4223435
+        ]
+      },
+      "properties": {
+        "codigo": "B092",
+        "nombre": "Puerto de Bermeo",
+        "descripcion": "Situada en el edificio de Puertos del G.V. En el puerto de Bermeo.",
+        "tipo": "B",
+        "fechacreacion": "14/07/2003",
+        "fechabaja": "22/07/2013",
+        "municipio": "Bermeo",
+        "provincia": "Bizkaia",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_b092/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_b092/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_b092/es_station/data/es_r01dtpd017ddc1b2ee9e292a67a61245f8f161a0de",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_b092/r01Index/station_b092-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_b092/opendata/station_b092.zip"
+      }
+    },
+    {
+      "id": 4,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.4157,
+          43.325
+        ]
+      },
+      "properties": {
+        "codigo": "B093",
+        "nombre": "Puerto de Ondarroa",
+        "descripcion": "Situada en el edificio nuevo del carro de puertos del G.V.",
+        "tipo": "B",
+        "fechacreacion": "03/10/2003",
+        "fechabaja": "06/01/2014",
+        "municipio": "Ondarroa",
+        "provincia": "Bizkaia",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_b093/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_b093/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_b093/es_station/data/es_r01dtpd0017ddc1b2edae292a6799057d1c173e949",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_b093/r01Index/station_b093-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_b093/opendata/station_b093.zip"
+      }
+    },
+    {
+      "id": 5,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.1968,
+          43.30559
+        ]
+      },
+      "properties": {
+        "codigo": "B094",
+        "nombre": "Puerto de Getaria",
+        "descripcion": "Situada en el edificio de Puertos del G.V. en el puerto de Getaria.",
+        "tipo": "B",
+        "fechacreacion": "02/10/2003",
+        "fechabaja": "06/01/2014",
+        "municipio": "Getaria",
+        "provincia": "Gipuzkoa",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_b094/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_b094/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_b094/es_station/data/es_r01dtpd017ddc1b2f04e292a678353ac57c3a65a0a",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_b094/r01Index/station_b094-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_b094/opendata/station_b094.zip"
+      }
+    },
+    {
+      "id": 6,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.92752,
+          43.3370283
+        ]
+      },
+      "properties": {
+        "codigo": "B096",
+        "nombre": "Puerto de Pasaia",
+        "descripcion": "Estructura: Estación montada sobre un poste metálico cimentado a los bajos del Arando Grande Situación: baliza de señalización del Arando Grande frente a la entrada al puerto de Pasaia",
+        "tipo": "B",
+        "fechacreacion": "23/07/2003",
+        "municipio": "Pasaia",
+        "provincia": "Gipuzkoa",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_b096/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_b096/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_b096/es_station/data/es_r01dtpd0017ddc1b2f46e292a679b2d4321d15367f",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_b096/r01Index/station_b096-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_b096/opendata/station_b096.zip"
+      }
+    },
+    {
+      "id": 7,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.78955,
+          43.3882
+        ]
+      },
+      "properties": {
+        "codigo": "B097",
+        "nombre": "Puerto de Hondarribia",
+        "descripcion": "Situada en el edicio de capitania del puerto deportivo de Hondarribia.",
+        "tipo": "B",
+        "fechacreacion": "01/09/2003",
+        "fechabaja": "07/10/2014",
+        "municipio": "Hondarribia",
+        "provincia": "Gipuzkoa",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_b097/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_b097/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_b097/es_station/data/es_r01dtpd017ddc1b2f7be292a672cc65a64bb22cfcd",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_b097/r01Index/station_b097-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_b097/opendata/station_b097.zip"
+      }
+    },
+    {
+      "id": 8,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.376872,
+          43.31218
+        ]
+      },
+      "properties": {
+        "codigo": "B098",
+        "nombre": "Mutriku",
+        "tipo": "B",
+        "fechacreacion": "14/07/2021",
+        "fechabaja": "01/02/2023",
+        "municipio": "Mutriku",
+        "provincia": "Gipuzkoa",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_b098/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_b098/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_b098/es_station/data/es_r01dtpd017ddc1b2f6fe292a67a815bc39b499a0f9",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_b098/r01Index/station_b098-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_b098/opendata/station_b098.zip"
+      }
+    },
+    {
+      "id": 9,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.62701,
+          42.8518
+        ]
+      },
+      "properties": {
+        "codigo": "C001",
+        "nombre": "Arkaute I",
+        "descripcion": "El 2/2/2005 se coloca el calefactor",
+        "tipo": "KM",
+        "fechacreacion": "12/10/2008",
+        "fechabaja": "14/02/2017",
+        "municipio": "Vitoria-Gasteiz",
+        "provincia": "Araba/Álava",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c001/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c001/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c001/es_station/data/es_r01dtpd017ddc1c6d3ae292a675877afc6746f388c",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c001/r01Index/station_c001-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c001/opendata/station_c001.zip"
+      }
+    },
+    {
+      "id": 10,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.65714,
+          43.347
+        ]
+      },
+      "properties": {
+        "codigo": "C002",
+        "nombre": "Arteaga",
+        "tipo": "KM",
+        "fechacreacion": "12/01/2011",
+        "municipio": "Gautegiz Arteaga",
+        "provincia": "Bizkaia",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c002/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c002/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c002/es_station/data/es_r01dtpd017ddc1c79dee292a67d2da7d57954f3d2e",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c002/r01Index/station_c002-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c002/opendata/station_c002.zip"
+      }
+    },
+    {
+      "id": 11,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.87342,
+          43.2911
+        ]
+      },
+      "properties": {
+        "codigo": "C003",
+        "nombre": "Derio",
+        "descripcion": "Control de calefaccion EUITI y transformador TR- 07152-3 el dia 28/05/2009 12:29:04",
+        "tipo": "KM",
+        "fechacreacion": "28/05/2009",
+        "fechabaja": "20/02/2025",
+        "municipio": "Derio",
+        "provincia": "Bizkaia",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c003/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c003/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c003/es_station/data/es_r01dtpd017ddc1c7a68e292a67ce38d308a65ba80f",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c003/r01Index/station_c003-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c003/opendata/station_c003.zip"
+      }
+    },
+    {
+      "id": 12,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.8124,
+          43.4168
+        ]
+      },
+      "properties": {
+        "codigo": "C004",
+        "nombre": "Bakio",
+        "tipo": "KA",
+        "fechacreacion": "16/10/2013",
+        "municipio": "Bakio",
+        "provincia": "Bizkaia",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c004/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c004/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c004/es_station/data/es_r01dtpd0017ddc1c7558e292a67eeb278778771be3",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c004/r01Index/station_c004-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c004/opendata/station_c004.zip"
+      }
+    },
+    {
+      "id": 13,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.90829,
+          43.3723
+        ]
+      },
+      "properties": {
+        "codigo": "C005",
+        "nombre": "Gatika",
+        "tipo": "KA",
+        "fechacreacion": "28/11/2013",
+        "municipio": "Gatika",
+        "provincia": "Bizkaia",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c005/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c005/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c005/es_station/data/es_r01dtpd017ddc1c6d33e292a6764325109ab49091b",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c005/r01Index/station_c005-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c005/opendata/station_c005.zip"
+      }
+    },
+    {
+      "id": 14,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.49565,
+          43.2655
+        ]
+      },
+      "properties": {
+        "codigo": "C006",
+        "nombre": "Markina",
+        "tipo": "KA",
+        "fechacreacion": "28/11/2013",
+        "municipio": "Markina-Xemein",
+        "provincia": "Bizkaia",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c006/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c006/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c006/es_station/data/es_r01dtpd017ddc1c71fde292a67d2fdafa161bf0a84",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c006/r01Index/station_c006-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c006/opendata/station_c006.zip"
+      }
+    },
+    {
+      "id": 15,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.99834,
+          43.3218
+        ]
+      },
+      "properties": {
+        "codigo": "C007",
+        "nombre": "Santa Clara",
+        "tipo": "KM",
+        "fechacreacion": "08/10/2010",
+        "municipio": "Donostia / San Sebastián",
+        "provincia": "Gipuzkoa",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c007/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c007/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c007/es_station/data/es_r01dtpd017ddc1c9d5ce292a6716e50487c6cf3de2",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c007/r01Index/station_c007-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c007/opendata/station_c007.zip"
+      }
+    },
+    {
+      "id": 16,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.74988,
+          43.09858
+        ]
+      },
+      "properties": {
+        "codigo": "C008",
+        "nombre": "Zeanuri",
+        "tipo": "KA",
+        "fechacreacion": "28/11/2013",
+        "municipio": "Zeanuri",
+        "provincia": "Bizkaia",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c008/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c008/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c008/es_station/data/es_r01dtpd017ddc1cb618e292a67ef416fa1b1728283",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c008/r01Index/station_c008-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c008/opendata/station_c008.zip"
+      }
+    },
+    {
+      "id": 17,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.870321,
+          43.234234
+        ]
+      },
+      "properties": {
+        "codigo": "C009",
+        "nombre": "Galdakao",
+        "tipo": "KA",
+        "fechacreacion": "01/07/2017",
+        "municipio": "Galdakao",
+        "provincia": "Bizkaia",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c009/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c009/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c009/es_station/data/es_r01dtpd017ddc1cc4b6e292a67febdc66a5511650d",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c009/r01Index/station_c009-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c009/opendata/station_c009.zip"
+      }
+    },
+    {
+      "id": 18,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.34148,
+          42.6754
+        ]
+      },
+      "properties": {
+        "codigo": "C00A",
+        "nombre": "Kanpezu",
+        "tipo": "KM",
+        "fechacreacion": "19/05/2015",
+        "municipio": "Campezo/Kanpezu",
+        "provincia": "Araba/Álava",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c00a/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c00a/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c00a/es_station/data/es_r01dtpd017ddc1c7132e292a67f420c8116c3ee5ac",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c00a/r01Index/station_c00a-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c00a/opendata/station_c00a.zip"
+      }
+    },
+    {
+      "id": 19,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1828,
+          42.8992
+        ]
+      },
+      "properties": {
+        "codigo": "C00B",
+        "nombre": "Tobillas",
+        "tipo": "KA",
+        "fechacreacion": "10/04/2017",
+        "municipio": "Valdegovía/Gaubea",
+        "provincia": "Araba/Álava",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c00b/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c00b/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c00b/es_station/data/es_r01dtpd017ddc1c5507e292a67f3ac1fc2ba42eeec",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c00b/r01Index/station_c00b-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c00b/opendata/station_c00b.zip"
+      }
+    },
+    {
+      "id": 20,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.6415097,
+          42.944472
+        ]
+      },
+      "properties": {
+        "codigo": "C00C",
+        "nombre": "Goiain",
+        "tipo": "KA",
+        "fechacreacion": "12/05/2022",
+        "municipio": "Legutio",
+        "provincia": "Araba/Álava",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c00c/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c00c/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c00c/es_station/data/es_r01dtpd181b84c227c1945fba5ffd4c20425955a6b",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c00c/r01Index/station_c00c-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c00c/opendata/station_c00c.zip"
+      }
+    },
+    {
+      "id": 21,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.6765434,
+          42.8729023
+        ]
+      },
+      "properties": {
+        "codigo": "C010",
+        "nombre": "Abetxuko-CHE",
+        "tipo": "KA",
+        "fechacreacion": "02/10/2019",
+        "municipio": "Vitoria-Gasteiz",
+        "provincia": "Araba/Álava",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c010/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c010/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c010/es_station/data/es_r01dtpd017ddc1cbfbfe292a67d063a43326888839",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c010/r01Index/station_c010-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c010/opendata/station_c010.zip"
+      }
+    },
+    {
+      "id": 22,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.8499509,
+          43.3561131
+        ]
+      },
+      "properties": {
+        "codigo": "C011",
+        "nombre": "Mungia-Lauaxeta",
+        "tipo": "KA",
+        "fechacreacion": "19/11/2019",
+        "municipio": "Mungia",
+        "provincia": "Bizkaia",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c011/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c011/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c011/es_station/data/es_r01dtpd017ddc1ce242e292a6786947538df5f83e3",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c011/r01Index/station_c011-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c011/opendata/station_c011.zip"
+      }
+    },
+    {
+      "id": 23,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.6371255,
+          42.8668213
+        ]
+      },
+      "properties": {
+        "codigo": "C012",
+        "nombre": "Zurbano-Alegría-CHE",
+        "tipo": "KA",
+        "fechacreacion": "05/05/2020",
+        "municipio": "Vitoria-Gasteiz",
+        "provincia": "Araba/Álava",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c012/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c012/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c012/es_station/data/es_r01dtpd017ddc1ce194e292a67ccdd1b6b5af68cf2",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c012/r01Index/station_c012-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c012/opendata/station_c012.zip"
+      }
+    },
+    {
+      "id": 24,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.621833,
+          42.854275
+        ]
+      },
+      "properties": {
+        "codigo": "C016",
+        "nombre": "Arkauti",
+        "tipo": "KM",
+        "fechacreacion": "14/02/2017",
+        "municipio": "Vitoria-Gasteiz",
+        "provincia": "Araba/Álava",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c016/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c016/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c016/es_station/data/es_r01dtpd017ddc1cd0ebe292a67bc2958ed660f3475",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c016/r01Index/station_c016-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c016/opendata/station_c016.zip"
+      }
+    },
+    {
+      "id": 25,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.97121,
+          43.2868
+        ]
+      },
+      "properties": {
+        "codigo": "C017",
+        "nombre": "Miramon",
+        "tipo": "KM",
+        "fechacreacion": "21/04/2010",
+        "municipio": "Donostia / San Sebastián",
+        "provincia": "Gipuzkoa",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c017/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c017/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c017/es_station/data/es_r01dtpd017ddc1cdc6fe292a67602dfa1e972571a7",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c017/r01Index/station_c017-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c017/opendata/station_c017.zip"
+      }
+    },
+    {
+      "id": 26,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.79615,
+          43.3913
+        ]
+      },
+      "properties": {
+        "codigo": "C018",
+        "nombre": "Higer",
+        "tipo": "KM",
+        "fechacreacion": "07/01/2010",
+        "municipio": "Hondarribia",
+        "provincia": "Gipuzkoa",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c018/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c018/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c018/es_station/data/es_r01dtpd017ddc1cdc93e292a67ab567d317a749a97",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c018/r01Index/station_c018-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c018/opendata/station_c018.zip"
+      }
+    },
+    {
+      "id": 27,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.7636,
+          43.4375
+        ]
+      },
+      "properties": {
+        "codigo": "C019",
+        "nombre": "Matxitxako",
+        "tipo": "KM",
+        "fechacreacion": "25/04/2008",
+        "municipio": "Bermeo",
+        "provincia": "Bizkaia",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c019/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c019/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c019/es_station/data/es_r01dtpd017ddc1cc8e0e292a671c7909879595abb6",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c019/r01Index/station_c019-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c019/opendata/station_c019.zip"
+      }
+    },
+    {
+      "id": 28,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.70141,
+          42.7180163
+        ]
+      },
+      "properties": {
+        "codigo": "C020",
+        "nombre": "Trebiño",
+        "descripcion": "Control calefaccion EUITI y transformador TR-07156-3 el dia 06/07/2007 9:55:37",
+        "tipo": "KM",
+        "fechacreacion": "06/07/2007",
+        "municipio": "Condado de Treviño",
+        "provincia": "Burgos",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c020/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c020/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c020/es_station/data/es_r01dtpd017ddc1cdf7fe292a67d12527cae1103ee1",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c020/r01Index/station_c020-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c020/opendata/station_c020.zip"
+      }
+    },
+    {
+      "id": 29,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.371,
+          42.7817
+        ]
+      },
+      "properties": {
+        "codigo": "C021",
+        "nombre": "Roitegi",
+        "tipo": "KM",
+        "fechacreacion": "12/02/2008",
+        "municipio": "Arraia-Maeztu",
+        "provincia": "Araba/Álava",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c021/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c021/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c021/es_station/data/es_r01dtpd017ddc1cf767e292a67b880b265c4814fcd",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c021/r01Index/station_c021-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c021/opendata/station_c021.zip"
+      }
+    },
+    {
+      "id": 30,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.64658,
+          43.1
+        ]
+      },
+      "properties": {
+        "codigo": "C022",
+        "nombre": "Urkiola",
+        "tipo": "KM",
+        "fechacreacion": "13/07/2010",
+        "municipio": "Abadiño",
+        "provincia": "Bizkaia",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c022/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c022/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c022/es_station/data/es_r01dtpd017ddc1cf79ce292a67e0c5842eae5e49d2",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c022/r01Index/station_c022-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c022/opendata/station_c022.zip"
+      }
+    },
+    {
+      "id": 31,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.49308,
+          43.0695849
+        ]
+      },
+      "properties": {
+        "codigo": "C023",
+        "nombre": "Arrasate",
+        "descripcion": "Circuito y transformador de calefaccion EUITI TC-07120-3 el dia 28/11/2005 9:58:38.Localizada en el cementerio Municipal en la torre de comunicaciones del Ayuntamiento",
+        "tipo": "KM",
+        "fechacreacion": "07/11/2008",
+        "municipio": "Arrasate / Mondragón",
+        "provincia": "Gipuzkoa",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c023/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c023/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c023/es_station/data/es_r01dtpd017ddc1ce9bce292a67f1d2adaea966c321",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c023/r01Index/station_c023-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c023/opendata/station_c023.zip"
+      }
+    },
+    {
+      "id": 32,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.34575,
+          42.7935945
+        ]
+      },
+      "properties": {
+        "codigo": "C024",
+        "nombre": "Iturrieta",
+        "descripcion": "Transformador de calefaccion EUITI TR-07199-3 el dia 25/11/2005 13:27:08",
+        "tipo": "KM",
+        "fechacreacion": "10/11/2009",
+        "municipio": "Agurain/Salvatierra",
+        "provincia": "Araba/Álava",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c024/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c024/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c024/es_station/data/es_r01dtpd017ddc1ce814e292a67242ef8905f099c3f",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c024/r01Index/station_c024-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c024/opendata/station_c024.zip"
+      }
+    },
+    {
+      "id": 33,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.89361,
+          42.9615782
+        ]
+      },
+      "properties": {
+        "codigo": "C025",
+        "nombre": "Beluntza",
+        "descripcion": "Control calefacción EUITI y transformador TR-07191-3 el dia 14/02/2008 15:45:16",
+        "tipo": "KM",
+        "fechacreacion": "14/02/2008",
+        "municipio": "Urkabustaiz",
+        "provincia": "Araba/Álava",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c025/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c025/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c025/es_station/data/es_r01dtpd017ddc1ce814e292a67cd9965dd02fda6d2",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c025/r01Index/station_c025-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c025/opendata/station_c025.zip"
+      }
+    },
+    {
+      "id": 34,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.98168,
+          43.1248
+        ]
+      },
+      "properties": {
+        "codigo": "C026",
+        "nombre": "Berastegi",
+        "tipo": "KM",
+        "fechacreacion": "01/10/2008",
+        "municipio": "Berastegi",
+        "provincia": "Gipuzkoa",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c026/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c026/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c026/es_station/data/es_r01dtpd017ddc1d1e11e292a67ff3e061063544bd6",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c026/r01Index/station_c026-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c026/opendata/station_c026.zip"
+      }
+    },
+    {
+      "id": 35,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.95079,
+          43.1423
+        ]
+      },
+      "properties": {
+        "codigo": "C027",
+        "nombre": "Llodio",
+        "descripcion": "Situada en la E.T.A.P. Del municipio",
+        "tipo": "KM",
+        "fechacreacion": "06/05/2009",
+        "fechabaja": "05/02/2013",
+        "municipio": "Laudio/Llodio",
+        "provincia": "Araba/Álava",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c027/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c027/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c027/es_station/data/es_r01dtpd017ddc1d30f4e292a6797a8923e827747b9",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c027/r01Index/station_c027-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c027/opendata/station_c027.zip"
+      }
+    },
+    {
+      "id": 36,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.29852,
+          42.9588
+        ]
+      },
+      "properties": {
+        "codigo": "C028",
+        "nombre": "Zegama",
+        "tipo": "KM",
+        "fechacreacion": "20/11/2008",
+        "municipio": "Zegama",
+        "provincia": "Gipuzkoa",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c028/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c028/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c028/es_station/data/es_r01dtpd017ddc1d43a7e292a67f8b88ae6d8ece78a",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c028/r01Index/station_c028-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c028/opendata/station_c028.zip"
+      }
+    },
+    {
+      "id": 37,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.06181,
+          43.1901
+        ]
+      },
+      "properties": {
+        "codigo": "C029",
+        "nombre": "Zizurkil",
+        "tipo": "KM",
+        "fechacreacion": "08/04/2009",
+        "municipio": "Zizurkil",
+        "provincia": "Gipuzkoa",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c029/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c029/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c029/es_station/data/es_r01dtpd017ddc1d3dcee292a6767bc63c5aa16b42a",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c029/r01Index/station_c029-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c029/opendata/station_c029.zip"
+      }
+    },
+    {
+      "id": 38,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.39538,
+          42.8582
+        ]
+      },
+      "properties": {
+        "codigo": "C030",
+        "nombre": "Salvatierra",
+        "descripcion": "Situada en la E.D.A.R. Del Municipio",
+        "tipo": "KM",
+        "fechacreacion": "06/03/2008",
+        "municipio": "Agurain/Salvatierra",
+        "provincia": "Araba/Álava",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c030/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c030/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c030/es_station/data/es_r01dtpd017ddc1d5b00e292a67356e11394f1968b7",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c030/r01Index/station_c030-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c030/opendata/station_c030.zip"
+      }
+    },
+    {
+      "id": 39,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.41023,
+          42.5303
+        ]
+      },
+      "properties": {
+        "codigo": "C031",
+        "nombre": "Moreda",
+        "tipo": "KM",
+        "fechacreacion": "28/12/2012",
+        "municipio": "Moreda de Álava/Moreda Araba",
+        "provincia": "Araba/Álava",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c031/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c031/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c031/es_station/data/es_r01dtpd017ddc1d552ee292a672d65e4ad9a8ce4f5",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c031/r01Index/station_c031-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c031/opendata/station_c031.zip"
+      }
+    },
+    {
+      "id": 40,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.93531,
+          43.1394
+        ]
+      },
+      "properties": {
+        "codigo": "C032",
+        "nombre": "Areta",
+        "tipo": "KA",
+        "fechacreacion": "30/01/2013",
+        "municipio": "Orozko",
+        "provincia": "Bizkaia",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c032/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c032/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c032/es_station/data/es_r01dtpd017ddc1d5326e292a674b81c97f5d588346",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c032/r01Index/station_c032-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c032/opendata/station_c032.zip"
+      }
+    },
+    {
+      "id": 41,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.7842,
+          43.1686
+        ]
+      },
+      "properties": {
+        "codigo": "C033",
+        "nombre": "Igorre",
+        "descripcion": "Control calefaccion EUITI y transformador TR-07139-3 el dia 13/06/2006 09:39:36 Situada encima del depósito de aguas Municipal",
+        "tipo": "KM",
+        "fechacreacion": "18/12/2008",
+        "municipio": "Igorre",
+        "provincia": "Bizkaia",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c033/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c033/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c033/es_station/data/es_r01dtpd017ddc1d51e2e292a67e76007a42e9b7ffc",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c033/r01Index/station_c033-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c033/opendata/station_c033.zip"
+      }
+    },
+    {
+      "id": 42,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.04103,
+          42.8078
+        ]
+      },
+      "properties": {
+        "codigo": "C034",
+        "nombre": "Espejo",
+        "descripcion": "Control calefaccion EUITI y transformador el dia 30/03/2006 13:54:09",
+        "tipo": "KM",
+        "fechacreacion": "28/11/2008",
+        "municipio": "Valdegovía/Gaubea",
+        "provincia": "Araba/Álava",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c034/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c034/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c034/es_station/data/es_r01dtpd017ddc1d586ae292a674cc9d406b45ef355",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c034/r01Index/station_c034-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c034/opendata/station_c034.zip"
+      }
+    },
+    {
+      "id": 43,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.86795,
+          42.9661
+        ]
+      },
+      "properties": {
+        "codigo": "C035",
+        "nombre": "Altube",
+        "descripcion": "Situada en el peaje de Altube de la A-68",
+        "tipo": "KM",
+        "fechacreacion": "26/10/2009",
+        "municipio": "Zuia",
+        "provincia": "Araba/Álava",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c035/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c035/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c035/es_station/data/es_r01dtpd017ddc1d48b3e292a673c8078ec580e1c3d",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c035/r01Index/station_c035-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c035/opendata/station_c035.zip"
+      }
+    },
+    {
+      "id": 44,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.622,
+          43.1769
+        ]
+      },
+      "properties": {
+        "codigo": "C036",
+        "nombre": "Iurreta",
+        "descripcion": "Circuito y transformador de calefaccion EUITI TC-07124-3 el dia 10/11/2005 13:54:09 mirar",
+        "tipo": "KM",
+        "fechacreacion": "23/01/2009",
+        "municipio": "Iurreta",
+        "provincia": "Bizkaia",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c036/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c036/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c036/es_station/data/es_r01dtpd017ddc1d5961e292a676a9f13907e879277",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c036/r01Index/station_c036-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c036/opendata/station_c036.zip"
+      }
+    },
+    {
+      "id": 45,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.89976,
+          43.2165
+        ]
+      },
+      "properties": {
+        "codigo": "C037",
+        "nombre": "Venta Alta",
+        "tipo": "KM",
+        "fechacreacion": "17/07/2014",
+        "municipio": "Arrigorriaga",
+        "provincia": "Bizkaia",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c037/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c037/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c037/es_station/data/es_r01dtpd017ddc1d704de292a672187e434d460b1d2",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c037/r01Index/station_c037-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c037/opendata/station_c037.zip"
+      }
+    },
+    {
+      "id": 46,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.99878,
+          43.3062
+        ]
+      },
+      "properties": {
+        "codigo": "C038",
+        "nombre": "Galindo",
+        "tipo": "KM",
+        "fechacreacion": "13/11/2013",
+        "municipio": "Sestao",
+        "provincia": "Bizkaia",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c038/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c038/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c038/es_station/data/es_r01dtpd0017ddc1d7927e292a67fdd8bd5019d6452",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c038/r01Index/station_c038-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c038/opendata/station_c038.zip"
+      }
+    },
+    {
+      "id": 47,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.96791,
+          43.2834
+        ]
+      },
+      "properties": {
+        "codigo": "C039",
+        "nombre": "Deusto",
+        "descripcion": "Control calefaccion y transformador EUI- TR07168-3 10/06/2009 06:24:52",
+        "tipo": "KM",
+        "fechacreacion": "10/06/2009",
+        "fechabaja": "15/03/2022",
+        "municipio": "Bilbao",
+        "provincia": "Bizkaia",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c039/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c039/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c039/es_station/data/es_r01dtpd017ddc1d60bce292a6764656c87e9202fcc",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c039/r01Index/station_c039-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c039/opendata/station_c039.zip"
+      }
+    },
+    {
+      "id": 48,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.968458,
+          43.28498
+        ]
+      },
+      "properties": {
+        "codigo": "C03A",
+        "nombre": "Zorrotza",
+        "tipo": "KM",
+        "fechacreacion": "27/12/2021",
+        "municipio": "Bilbao",
+        "provincia": "Bizkaia",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c03a/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c03a/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c03a/es_station/data/es_r01dtpd17e201cbdc26ccda7d297ad1101b6a25532",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c03a/r01Index/station_c03a-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c03a/opendata/station_c03a.zip"
+      }
+    },
+    {
+      "id": 49,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.68899,
+          42.8604
+        ]
+      },
+      "properties": {
+        "codigo": "C040",
+        "nombre": "Gasteiz",
+        "tipo": "KM",
+        "fechacreacion": "21/01/2008",
+        "municipio": "Vitoria-Gasteiz",
+        "provincia": "Araba/Álava",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c040/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c040/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c040/es_station/data/es_r01dtpd017ddc1d5f34e292a67da5b463c6eecb704",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c040/r01Index/station_c040-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c040/opendata/station_c040.zip"
+      }
+    },
+    {
+      "id": 50,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.52321,
+          42.638
+        ]
+      },
+      "properties": {
+        "codigo": "C041",
+        "nombre": "Navarrete",
+        "tipo": "KM",
+        "fechacreacion": "04/03/2008",
+        "municipio": "Bernedo",
+        "provincia": "Araba/Álava",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c041/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c041/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c041/es_station/data/es_r01dtpd017ddc1d606fe292a677e819cb6fb4591f2",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c041/r01Index/station_c041-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c041/opendata/station_c041.zip"
+      }
+    },
+    {
+      "id": 51,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.03608,
+          43.3752
+        ]
+      },
+      "properties": {
+        "codigo": "C042",
+        "nombre": "Punta Galea",
+        "descripcion": "Control calefaccion EUITI y transformador TR-07196-3 el dia 23/01/2007 12:20:00 (VTHLIP)",
+        "tipo": "KM",
+        "fechacreacion": "12/02/2009",
+        "municipio": "Getxo",
+        "provincia": "Bizkaia",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c042/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c042/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c042/es_station/data/es_r01dtpd017ddc1d9200e292a6786103de105530f99",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c042/r01Index/station_c042-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c042/opendata/station_c042.zip"
+      }
+    },
+    {
+      "id": 52,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.17755,
+          43.0484
+        ]
+      },
+      "properties": {
+        "codigo": "C043",
+        "nombre": "Ordizia",
+        "descripcion": "VTHLI",
+        "tipo": "KM",
+        "fechacreacion": "05/02/2008",
+        "municipio": "Ordizia",
+        "provincia": "Gipuzkoa",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c043/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c043/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c043/es_station/data/es_r01dtpd017ddc1da00de292a6779bdef2d653fcfcd",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c043/r01Index/station_c043-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c043/opendata/station_c043.zip"
+      }
+    },
+    {
+      "id": 53,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.73515,
+          42.9995
+        ]
+      },
+      "properties": {
+        "codigo": "C044",
+        "nombre": "Gorbea",
+        "tipo": "KM",
+        "fechacreacion": "07/09/2010",
+        "municipio": "Zigoitia",
+        "provincia": "Araba/Álava",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c044/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c044/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c044/es_station/data/es_r01dtpd017ddc1dade5e292a67aa5ffd5f6ee87ca7",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c044/r01Index/station_c044-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c044/opendata/station_c044.zip"
+      }
+    },
+    {
+      "id": 54,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.19368,
+          43.217
+        ]
+      },
+      "properties": {
+        "codigo": "C045",
+        "nombre": "La Garbea",
+        "descripcion": "VTHL",
+        "tipo": "KM",
+        "fechacreacion": "18/12/2008",
+        "municipio": "Balmaseda",
+        "provincia": "Bizkaia",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c045/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c045/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c045/es_station/data/es_r01dtpd017ddc1dab12e292a67302160e5b2b7a229",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c045/r01Index/station_c045-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c045/opendata/station_c045.zip"
+      }
+    },
+    {
+      "id": 55,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.5954,
+          43.2304
+        ]
+      },
+      "properties": {
+        "codigo": "C046",
+        "nombre": "Oiz",
+        "descripcion": "Circuito y transformador de calefaccion EUITI TC-07123-3 el dia 10/11/2005 7:15:57",
+        "tipo": "KM",
+        "fechacreacion": "13/05/2009",
+        "municipio": "Munitibar-Arbatzegi Gerrikaitz",
+        "provincia": "Bizkaia",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c046/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c046/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c046/es_station/data/es_r01dtpd017ddc1dcbeee292a67cea10d20637482a6",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c046/r01Index/station_c046-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c046/opendata/station_c046.zip"
+      }
+    },
+    {
+      "id": 56,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.53785,
+          42.768
+        ]
+      },
+      "properties": {
+        "codigo": "C047",
+        "nombre": "Kapildui",
+        "descripcion": "Control calefaccion EUITI y transformador TR-07198-3 el dia 21/04/2009 10:40:20",
+        "tipo": "KM",
+        "fechacreacion": "05/09/2007",
+        "municipio": "Bernedo",
+        "provincia": "Araba/Álava",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c047/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c047/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c047/es_station/data/es_r01dtpd017ddc1dbd7ee292a679cd373ebc2542a42",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c047/r01Index/station_c047-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c047/opendata/station_c047.zip"
+      }
+    },
+    {
+      "id": 57,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.67616,
+          42.5978
+        ]
+      },
+      "properties": {
+        "codigo": "C048",
+        "nombre": "Herrera",
+        "descripcion": "VTHLI",
+        "tipo": "KM",
+        "fechacreacion": "11/03/2008",
+        "municipio": "Lagrán",
+        "provincia": "Araba/Álava",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c048/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c048/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c048/es_station/data/es_r01dtpd017ddc1dc281e292a674d81a5d8232a93be",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c048/r01Index/station_c048-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c048/opendata/station_c048.zip"
+      }
+    },
+    {
+      "id": 58,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.89328,
+          42.8196
+        ]
+      },
+      "properties": {
+        "codigo": "C049",
+        "nombre": "Subijana",
+        "descripcion": "THL",
+        "tipo": "KM",
+        "fechacreacion": "07/10/2009",
+        "municipio": "Erriberagoitia/Ribera Alta",
+        "provincia": "Araba/Álava",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c049/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c049/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c049/es_station/data/es_r01dtpd017ddc1dbd23e292a67856026656269103f",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c049/r01Index/station_c049-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c049/opendata/station_c049.zip"
+      }
+    },
+    {
+      "id": 59,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.8869,
+          42.6751
+        ]
+      },
+      "properties": {
+        "codigo": "C050",
+        "nombre": "Zambrana",
+        "descripcion": "Transformador de calefaccion EUITI TR-07198-3 el dia 21/04/2009 10:40:20",
+        "tipo": "KM",
+        "fechacreacion": "21/04/2009",
+        "municipio": "Berantevilla",
+        "provincia": "Araba/Álava",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c050/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c050/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c050/es_station/data/es_r01dtpd017ddc1dc506e292a6782f234c938e1a8da",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c050/r01Index/station_c050-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c050/opendata/station_c050.zip"
+      }
+    },
+    {
+      "id": 60,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.00398,
+          43.0342
+        ]
+      },
+      "properties": {
+        "codigo": "C051",
+        "nombre": "Saratxo",
+        "descripcion": "Circuito y transformador de calefaccion EUITI TC-07118-3 el dia 12/05/2005 9:56:02",
+        "tipo": "KA",
+        "fechacreacion": "05/03/2009",
+        "municipio": "Amurrio",
+        "provincia": "Araba/Álava",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c051/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c051/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c051/es_station/data/es_r01dtpd017ddc1db818e292a67c7969e6e5000d2d0",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c051/r01Index/station_c051-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c051/opendata/station_c051.zip"
+      }
+    },
+    {
+      "id": 61,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.95085,
+          43.1417
+        ]
+      },
+      "properties": {
+        "codigo": "C052",
+        "nombre": "Ameraun",
+        "tipo": "KA",
+        "fechacreacion": "10/03/2011",
+        "municipio": "Berastegi",
+        "provincia": "Gipuzkoa",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c052/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c052/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c052/es_station/data/es_r01dtpd017ddc1dce5ce292a673050daa2a56cb653",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c052/r01Index/station_c052-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c052/opendata/station_c052.zip"
+      }
+    },
+    {
+      "id": 62,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.71048,
+          43.0703
+        ]
+      },
+      "properties": {
+        "codigo": "C053",
+        "nombre": "Barazar",
+        "tipo": "KM",
+        "fechacreacion": "06/03/2008",
+        "fechabaja": "04/10/2010",
+        "municipio": "Zeanuri",
+        "provincia": "Bizkaia",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c053/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c053/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c053/es_station/data/es_r01dtpd017ddc1ddd28e292a6743aa34d73e706982",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c053/r01Index/station_c053-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c053/opendata/station_c053.zip"
+      }
+    },
+    {
+      "id": 63,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.65763,
+          43.0423
+        ]
+      },
+      "properties": {
+        "codigo": "C054",
+        "nombre": "Otxandio",
+        "descripcion": "Transformador de calefaccion EUITI TR-07159-3 el dia 12/02/2009 16:01:00",
+        "tipo": "KA",
+        "fechacreacion": "10/04/2008",
+        "municipio": "Otxandio",
+        "provincia": "Bizkaia",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c054/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c054/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c054/es_station/data/es_r01dtpd017ddc1de896e292a67c92bcb7f490f4f5b",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c054/r01Index/station_c054-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c054/opendata/station_c054.zip"
+      }
+    },
+    {
+      "id": 64,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.49313,
+          42.913
+        ]
+      },
+      "properties": {
+        "codigo": "C055",
+        "nombre": "Ozaeta",
+        "descripcion": "Control de calefaccion EUITI y trasformador TR-07173-3 el dia 28/08/2009 12:06:43",
+        "tipo": "KA",
+        "fechacreacion": "28/08/2009",
+        "municipio": "Barrundia",
+        "provincia": "Araba/Álava",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c055/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c055/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c055/es_station/data/es_r01dtpd017ddc1dcfeae292a679be15d3ac623d090",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c055/r01Index/station_c055-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c055/opendata/station_c055.zip"
+      }
+    },
+    {
+      "id": 65,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.52402,
+          42.8447
+        ]
+      },
+      "properties": {
+        "codigo": "C056",
+        "nombre": "Alegría",
+        "descripcion": "Transformador de calefaccion EUITI TR-07121-3 el dia 12/12/2006 13:10:13",
+        "tipo": "KA",
+        "fechacreacion": "18/04/2008",
+        "municipio": "Alegría-Dulantzi",
+        "provincia": "Araba/Álava",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c056/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c056/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c056/es_station/data/es_r01dtpd017ddc1dcbd8e292a67dc70598d93e2b0f5",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c056/r01Index/station_c056-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c056/opendata/station_c056.zip"
+      }
+    },
+    {
+      "id": 66,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.84702,
+          43.363
+        ]
+      },
+      "properties": {
+        "codigo": "C057",
+        "nombre": "Mungia",
+        "descripcion": "Circuito y transformador de calefaccion EUITI TC-07103-3 el dia 08/06/2005 11:32:06. Pasa a aforo el dia 12-12-2001",
+        "tipo": "KA",
+        "fechacreacion": "10/09/2009",
+        "municipio": "Mungia",
+        "provincia": "Bizkaia",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c057/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c057/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c057/es_station/data/es_r01dtpd017ddc1dc9f1e292a67a5b164e56d22c89f",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c057/r01Index/station_c057-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c057/opendata/station_c057.zip"
+      }
+    },
+    {
+      "id": 67,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.15502,
+          43.146
+        ]
+      },
+      "properties": {
+        "codigo": "C058",
+        "nombre": "Bidania",
+        "descripcion": "Circuito y transformador de calefaccion EUITI TC-07137-3 el dia 30/05/2006 10:10:30",
+        "tipo": "KM",
+        "fechacreacion": "24/07/2009",
+        "municipio": "Bidania-Goiatz",
+        "provincia": "Gipuzkoa",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c058/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c058/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c058/es_station/data/es_r01dtpd017ddc1e05c1e292a6758b4d263bfa56597",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c058/r01Index/station_c058-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c058/opendata/station_c058.zip"
+      }
+    },
+    {
+      "id": 68,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.28404,
+          43.1623
+        ]
+      },
+      "properties": {
+        "codigo": "C059",
+        "nombre": "Ordunte",
+        "tipo": "KM",
+        "fechacreacion": "03/02/2010",
+        "municipio": "Valle de Mena",
+        "provincia": "Burgos",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c059/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c059/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c059/es_station/data/es_r01dtpd0017ddc1e088ae292a67e79c956c74c0105",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c059/r01Index/station_c059-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c059/opendata/station_c059.zip"
+      }
+    },
+    {
+      "id": 69,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.60055,
+          42.5605
+        ]
+      },
+      "properties": {
+        "codigo": "C060",
+        "nombre": "Páganos",
+        "descripcion": "Transformador de calefaccion EUITI TR-07112-3 16/03/2005 9:47:38",
+        "tipo": "KM",
+        "fechacreacion": "01/04/2008",
+        "municipio": "Laguardia",
+        "provincia": "Araba/Álava",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c060/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c060/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c060/es_station/data/es_r01dtpd017ddc1e1bd1e292a67661b1aa722864787",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c060/r01Index/station_c060-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c060/opendata/station_c060.zip"
+      }
+    },
+    {
+      "id": 70,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.06747,
+          43.2967
+        ]
+      },
+      "properties": {
+        "codigo": "C061",
+        "nombre": "Arboleda",
+        "tipo": "KM",
+        "fechacreacion": "01/12/2009",
+        "municipio": "Valle de Trápaga-Trapagaran",
+        "provincia": "Bizkaia",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c061/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c061/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c061/es_station/data/es_r01dtpd017ddc1e118ae292a67cc15900433322784",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c061/r01Index/station_c061-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c061/opendata/station_c061.zip"
+      }
+    },
+    {
+      "id": 71,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.68914,
+          43.2897
+        ]
+      },
+      "properties": {
+        "codigo": "C063",
+        "nombre": "Muxika",
+        "tipo": "KC",
+        "fechacreacion": "21/02/2008",
+        "municipio": "Muxika",
+        "provincia": "Bizkaia",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c063/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c063/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c063/es_station/data/es_r01dtpd017ddc1e77a1e292a67a9b9571e2dcc4934",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c063/r01Index/station_c063-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c063/opendata/station_c063.zip"
+      }
+    },
+    {
+      "id": 72,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.14542,
+          43.293
+        ]
+      },
+      "properties": {
+        "codigo": "C064",
+        "nombre": "Zarautz",
+        "descripcion": "VTHLI",
+        "tipo": "KM",
+        "fechacreacion": "08/02/2008",
+        "municipio": "Zarautz",
+        "provincia": "Gipuzkoa",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c064/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c064/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c064/es_station/data/es_r01dtpd017ddc1e2b2be292a6760082ba85578e160",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c064/r01Index/station_c064-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c064/opendata/station_c064.zip"
+      }
+    },
+    {
+      "id": 73,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.40713,
+          43.2112
+        ]
+      },
+      "properties": {
+        "codigo": "C065",
+        "nombre": "Cerroja",
+        "descripcion": "Control calefaccion EUITI y transformador TR-07105-3 el dia 10/01/2008 06:34:43",
+        "tipo": "KM",
+        "fechacreacion": "10/01/2008",
+        "municipio": "Karrantza Harana/Valle de Carranza",
+        "provincia": "Bizkaia",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c065/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c065/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c065/es_station/data/es_r01dtpd017ddc1e2eeee292a67d197a28e29d03bd0",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c065/r01Index/station_c065-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c065/opendata/station_c065.zip"
+      }
+    },
+    {
+      "id": 74,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.9071,
+          43.1392
+        ]
+      },
+      "properties": {
+        "codigo": "C066",
+        "nombre": "Untzueta",
+        "tipo": "KM",
+        "fechacreacion": "24/02/2014",
+        "municipio": "Orozko",
+        "provincia": "Bizkaia",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c066/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c066/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c066/es_station/data/es_r01dtpd017ddc1e3138e292a673758e6987e1e948e",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c066/r01Index/station_c066-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c066/opendata/station_c066.zip"
+      }
+    },
+    {
+      "id": 75,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.98025,
+          43.1272
+        ]
+      },
+      "properties": {
+        "codigo": "C067",
+        "nombre": "Gardea",
+        "descripcion": "Transformador de calefaccion EUITI TR-07115-3 el dia 24/11/2009 09:34:58",
+        "tipo": "KC",
+        "fechacreacion": "01/09/1995",
+        "municipio": "Laudio/Llodio",
+        "provincia": "Araba/Álava",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c067/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c067/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c067/es_station/data/es_r01dtpd0017ddc1e396de292a67a15d43d352459a9",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c067/r01Index/station_c067-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c067/opendata/station_c067.zip"
+      }
+    },
+    {
+      "id": 76,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.28623,
+          42.87395
+        ]
+      },
+      "properties": {
+        "codigo": "C068",
+        "nombre": "Ilarduia",
+        "tipo": "KM",
+        "fechacreacion": "20/02/2015",
+        "municipio": "Asparrena",
+        "provincia": "Araba/Álava",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c068/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c068/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c068/es_station/data/es_r01dtpd017ddc1e2e1be292a67c484f93cd23cc767",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c068/r01Index/station_c068-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c068/opendata/station_c068.zip"
+      }
+    },
+    {
+      "id": 77,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.73229,
+          43.4137
+        ]
+      },
+      "properties": {
+        "codigo": "C069",
+        "nombre": "Almike (Bermeo)",
+        "tipo": "KM",
+        "fechacreacion": "12/05/2009",
+        "municipio": "Bermeo",
+        "provincia": "Bizkaia",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c069/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c069/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c069/es_station/data/es_r01dtpd017ddc1e75cbe292a67b9d407d18ab2137b",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c069/r01Index/station_c069-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c069/opendata/station_c069.zip"
+      }
+    },
+    {
+      "id": 78,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.73642,
+          42.7966
+        ]
+      },
+      "properties": {
+        "codigo": "C070",
+        "nombre": "Zaldiaran",
+        "descripcion": "Circuito y transformador de calefaccion EUITI TR-07131-3 el dia 16/03/2006 15:02:08",
+        "tipo": "KM",
+        "fechacreacion": "01/05/1994",
+        "municipio": "Vitoria-Gasteiz",
+        "provincia": "Araba/Álava",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c070/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c070/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c070/es_station/data/es_r01dtpd017ddc1e78dde292a6743ccbb86a1c6cdf3",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c070/r01Index/station_c070-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c070/opendata/station_c070.zip"
+      }
+    },
+    {
+      "id": 79,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.85972,
+          43.3446
+        ]
+      },
+      "properties": {
+        "codigo": "C071",
+        "nombre": "Jaizkibel",
+        "tipo": "KM",
+        "fechacreacion": "27/02/2008",
+        "municipio": "Lezo",
+        "provincia": "Gipuzkoa",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c071/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c071/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c071/es_station/data/es_r01dtpd017ddc1e8bbce292a67f02968d7fb5cc3df",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c071/r01Index/station_c071-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c071/opendata/station_c071.zip"
+      }
+    },
+    {
+      "id": 80,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.03726,
+          42.9837
+        ]
+      },
+      "properties": {
+        "codigo": "C072",
+        "nombre": "Orduña",
+        "descripcion": "VTHL",
+        "tipo": "KM",
+        "fechacreacion": "25/03/2009",
+        "municipio": "Urduña/Orduña",
+        "provincia": "Bizkaia",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c072/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c072/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c072/es_station/data/es_r01dtpd017ddc1e75bee292a673b0eb6634c5142ed",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c072/r01Index/station_c072-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c072/opendata/station_c072.zip"
+      }
+    },
+    {
+      "id": 81,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.5295246,
+          43.1926263
+        ]
+      },
+      "properties": {
+        "codigo": "C073",
+        "nombre": "Mallabia",
+        "tipo": "KM",
+        "fechacreacion": "16/02/2020",
+        "municipio": "Mallabia",
+        "provincia": "Bizkaia",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c073/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c073/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c073/es_station/data/es_r01dtpd017ddc1e75f1e292a67758f28bcb4c99caf",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c073/r01Index/station_c073-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c073/opendata/station_c073.zip"
+      }
+    },
+    {
+      "id": 82,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.55853,
+          43.1306
+        ]
+      },
+      "properties": {
+        "codigo": "C074",
+        "nombre": "Elorrio",
+        "tipo": "KC",
+        "fechacreacion": "28/09/2000",
+        "municipio": "Elorrio",
+        "provincia": "Bizkaia",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c074/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c074/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c074/es_station/data/es_r01dtpd017ddc1e40f6e292a67f3c5323376bd9cc5",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c074/r01Index/station_c074-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c074/opendata/station_c074.zip"
+      }
+    },
+    {
+      "id": 83,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.50096,
+          43.1761
+        ]
+      },
+      "properties": {
+        "codigo": "C075",
+        "nombre": "Eitzaga",
+        "tipo": "KM",
+        "fechacreacion": "06/06/2011",
+        "fechabaja": "06/02/2020",
+        "municipio": "Zaldibar",
+        "provincia": "Bizkaia",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c075/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c075/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c075/es_station/data/es_r01dtpd017ddc1e9e05e292a67c681162da480c0c7",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c075/r01Index/station_c075-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c075/opendata/station_c075.zip"
+      }
+    },
+    {
+      "id": 84,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.66879,
+          42.8755
+        ]
+      },
+      "properties": {
+        "codigo": "C076",
+        "nombre": "Abetxuko",
+        "tipo": "KA",
+        "fechacreacion": "01/04/2008",
+        "municipio": "Vitoria-Gasteiz",
+        "provincia": "Araba/Álava",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c076/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c076/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c076/es_station/data/es_r01dtpd017ddc1eb7e4e292a67404db045a4499048",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c076/r01Index/station_c076-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c076/opendata/station_c076.zip"
+      }
+    },
+    {
+      "id": 85,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.01559,
+          43.2109
+        ]
+      },
+      "properties": {
+        "codigo": "C077",
+        "nombre": "Andoain",
+        "descripcion": "THLNC",
+        "tipo": "KC",
+        "fechacreacion": "22/08/2008",
+        "municipio": "Andoain",
+        "provincia": "Gipuzkoa",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c077/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c077/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c077/es_station/data/es_r01dtpd017ddc1ed3d0e292a67352487b0681fcaf0",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c077/r01Index/station_c077-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c077/opendata/station_c077.zip"
+      }
+    },
+    {
+      "id": 86,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.39784,
+          43.2419
+        ]
+      },
+      "properties": {
+        "codigo": "C078",
+        "nombre": "Altzola",
+        "tipo": "KC",
+        "fechacreacion": "03/06/2010",
+        "municipio": "Elgoibar",
+        "provincia": "Gipuzkoa",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c078/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c078/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c078/es_station/data/es_r01dtpd017ddc1eb7e5e292a67b1ef123a9fd69611",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c078/r01Index/station_c078-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c078/opendata/station_c078.zip"
+      }
+    },
+    {
+      "id": 87,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.73304,
+          43.2185
+        ]
+      },
+      "properties": {
+        "codigo": "C079",
+        "nombre": "Amorebieta",
+        "descripcion": "Circuito y transformador de calefaccion EUITI TR-07192-3 el dia 23/02/2006 9:17:34",
+        "tipo": "KC",
+        "fechacreacion": "20/01/2010",
+        "municipio": "Amorebieta-Etxano",
+        "provincia": "Bizkaia",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c079/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c079/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c079/es_station/data/es_r01dtpd017ddc1ef1bce292a6777996a0d81c8fe87",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c079/r01Index/station_c079-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c079/opendata/station_c079.zip"
+      }
+    },
+    {
+      "id": 88,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.84981,
+          43.2276
+        ]
+      },
+      "properties": {
+        "codigo": "C080",
+        "nombre": "Añarbe",
+        "tipo": "KC",
+        "fechacreacion": "28/10/2009",
+        "municipio": "Oiartzun",
+        "provincia": "Gipuzkoa",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c080/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c080/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c080/es_station/data/es_r01dtpd017ddc1ed348e292a671f3347fa4eb6a953",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c080/r01Index/station_c080-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c080/opendata/station_c080.zip"
+      }
+    },
+    {
+      "id": 89,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.95634,
+          43.297
+        ]
+      },
+      "properties": {
+        "codigo": "C081",
+        "nombre": "Martutene",
+        "tipo": "KA",
+        "fechacreacion": "10/06/2012",
+        "municipio": "Donostia / San Sebastián",
+        "provincia": "Gipuzkoa",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c081/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c081/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c081/es_station/data/es_r01dtpd017ddc1ed481e292a6786a856e666b9eb97",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c081/r01Index/station_c081-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c081/opendata/station_c081.zip"
+      }
+    },
+    {
+      "id": 90,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.96198,
+          43.3076
+        ]
+      },
+      "properties": {
+        "codigo": "C082",
+        "nombre": "Txomin Enea",
+        "tipo": "KA",
+        "fechacreacion": "23/07/2012",
+        "municipio": "Donostia / San Sebastián",
+        "provincia": "Gipuzkoa",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c082/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c082/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c082/es_station/data/es_r01dtpd017ddc1ed2d1e292a6747875490a9b476f1",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c082/r01Index/station_c082-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c082/opendata/station_c082.zip"
+      }
+    },
+    {
+      "id": 91,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.82138,
+          43.3402
+        ]
+      },
+      "properties": {
+        "codigo": "C083",
+        "nombre": "Jaizubia",
+        "tipo": "KA",
+        "fechacreacion": "19/03/2013",
+        "municipio": "Irun",
+        "provincia": "Gipuzkoa",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c083/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c083/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c083/es_station/data/es_r01dtpd0017ddc1ed935e292a6774007fb8f5fd8d6",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c083/r01Index/station_c083-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c083/opendata/station_c083.zip"
+      }
+    },
+    {
+      "id": 92,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.76117,
+          43.346
+        ]
+      },
+      "properties": {
+        "codigo": "C084",
+        "nombre": "Behobia",
+        "tipo": "KA",
+        "fechacreacion": "14/05/2013",
+        "municipio": "Irun",
+        "provincia": "Gipuzkoa",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c084/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c084/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c084/es_station/data/es_r01dtpd017ddc1ed943e292a67f7b24e8bbf746cb3",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c084/r01Index/station_c084-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c084/opendata/station_c084.zip"
+      }
+    },
+    {
+      "id": 93,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.4542,
+          43.1921
+        ]
+      },
+      "properties": {
+        "codigo": "C085",
+        "nombre": "Eibar",
+        "tipo": "KA",
+        "fechacreacion": "16/10/2013",
+        "municipio": "Eibar",
+        "provincia": "Gipuzkoa",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c085/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c085/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c085/es_station/data/es_r01dtpd017ddc1eec04e292a67b0cd7f530b5b7479",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c085/r01Index/station_c085-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c085/opendata/station_c085.zip"
+      }
+    },
+    {
+      "id": 94,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.1693568,
+          43.2779811
+        ]
+      },
+      "properties": {
+        "codigo": "C086",
+        "nombre": "Inurritza",
+        "tipo": "KA",
+        "fechacreacion": "22/09/2022",
+        "municipio": "Zarautz",
+        "provincia": "Gipuzkoa",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c086/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c086/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c086/es_station/data/es_r01dtpd18431f725f25a01da2c2fb808b69ed63391",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c086/r01Index/station_c086-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c086/opendata/station_c086.zip"
+      }
+    },
+    {
+      "id": 95,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.8302,
+          42.9798
+        ]
+      },
+      "properties": {
+        "codigo": "C0A0",
+        "nombre": "Sarria",
+        "tipo": "KA",
+        "fechacreacion": "19/05/2011",
+        "municipio": "Zuia",
+        "provincia": "Araba/Álava",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c0a0/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c0a0/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0a0/es_station/data/es_r01dtpd017ddc1b3fc1e292a67c669eef08e4f20e2",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0a0/r01Index/station_c0a0-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0a0/opendata/station_c0a0.zip"
+      }
+    },
+    {
+      "id": 96,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.72441,
+          42.64782
+        ]
+      },
+      "properties": {
+        "codigo": "C0A1",
+        "nombre": "Pagoeta",
+        "tipo": "KA",
+        "fechacreacion": "09/06/2016",
+        "municipio": "Peñacerrada-Urizaharra",
+        "provincia": "Araba/Álava",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c0a1/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c0a1/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0a1/es_station/data/es_r01dtpd017ddc1b571ee292a6766e582cf06561047",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0a1/r01Index/station_c0a1-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0a1/opendata/station_c0a1.zip"
+      }
+    },
+    {
+      "id": 97,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.25319,
+          42.86831
+        ]
+      },
+      "properties": {
+        "codigo": "C0A2",
+        "nombre": "Egino",
+        "tipo": "KA",
+        "fechacreacion": "23/06/2016",
+        "municipio": "Asparrena",
+        "provincia": "Araba/Álava",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c0a2/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c0a2/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0a2/es_station/data/es_r01dtpd017ddc1b7919e292a671279a9aacfc95048",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0a2/r01Index/station_c0a2-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0a2/opendata/station_c0a2.zip"
+      }
+    },
+    {
+      "id": 98,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.39017,
+          42.67846
+        ]
+      },
+      "properties": {
+        "codigo": "C0A3",
+        "nombre": "Antoñana",
+        "tipo": "KA",
+        "fechacreacion": "27/10/2016",
+        "municipio": "Campezo/Kanpezu",
+        "provincia": "Araba/Álava",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c0a3/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c0a3/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0a3/es_station/data/es_r01dtpd017ddc1b7e62e292a67c5302130dcceeb89",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0a3/r01Index/station_c0a3-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0a3/opendata/station_c0a3.zip"
+      }
+    },
+    {
+      "id": 99,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.631363,
+          42.692483
+        ]
+      },
+      "properties": {
+        "codigo": "C0A4",
+        "nombre": "Albaina",
+        "tipo": "KA",
+        "fechacreacion": "28/02/2017",
+        "municipio": "Condado de Treviño",
+        "provincia": "Burgos",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c0a4/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c0a4/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0a4/es_station/data/es_r01dtpd017ddc1b7feae292a67c9e034d13653a337",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0a4/r01Index/station_c0a4-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0a4/opendata/station_c0a4.zip"
+      }
+    },
+    {
+      "id": 100,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.50361,
+          42.8878
+        ]
+      },
+      "properties": {
+        "codigo": "C0AA",
+        "nombre": "Etura",
+        "tipo": "KA",
+        "fechacreacion": "31/01/2012",
+        "municipio": "Barrundia",
+        "provincia": "Araba/Álava",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c0aa/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c0aa/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0aa/es_station/data/es_r01dtpd017ddc1b2f66e292a674d88a58468765508",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0aa/r01Index/station_c0aa-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0aa/opendata/station_c0aa.zip"
+      }
+    },
+    {
+      "id": 101,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.8239093,
+          42.7934862
+        ]
+      },
+      "properties": {
+        "codigo": "C0AB",
+        "nombre": "Nanclares",
+        "tipo": "KA",
+        "fechacreacion": "04/02/2021",
+        "municipio": "Iruña Oka/Iruña de Oca",
+        "provincia": "Araba/Álava",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c0ab/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c0ab/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0ab/es_station/data/es_r01dtpd017ddc1b2f41e292a67ce5567e0e2b185f1",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0ab/r01Index/station_c0ab-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0ab/opendata/station_c0ab.zip"
+      }
+    },
+    {
+      "id": 102,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.92679,
+          43.2596
+        ]
+      },
+      "properties": {
+        "codigo": "C0B0",
+        "nombre": "La Merced",
+        "tipo": "KA",
+        "fechacreacion": "13/07/2012",
+        "municipio": "Bilbao",
+        "provincia": "Bizkaia",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c0b0/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c0b0/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0b0/es_station/data/es_r01dtpd017ddc1b9428e292a67a643beb97e198170",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0b0/r01Index/station_c0b0-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0b0/opendata/station_c0b0.zip"
+      }
+    },
+    {
+      "id": 103,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.91364,
+          43.2474
+        ]
+      },
+      "properties": {
+        "codigo": "C0B1",
+        "nombre": "Abusu",
+        "tipo": "KC",
+        "fechacreacion": "20/05/2010",
+        "municipio": "Arrigorriaga",
+        "provincia": "Bizkaia",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c0b1/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c0b1/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0b1/es_station/data/es_r01dtpd017ddc1b92eae292a67bc2ba1e80e887908",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0b1/r01Index/station_c0b1-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0b1/opendata/station_c0b1.zip"
+      }
+    },
+    {
+      "id": 104,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.87935,
+          43.22
+        ]
+      },
+      "properties": {
+        "codigo": "C0B2",
+        "nombre": "Zaratamo",
+        "tipo": "KC",
+        "fechacreacion": "21/07/2010",
+        "municipio": "Zaratamo",
+        "provincia": "Bizkaia",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c0b2/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c0b2/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0b2/es_station/data/es_r01dtpd017ddc1b92ade292a67d8f81a43bdad8951",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0b2/r01Index/station_c0b2-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0b2/opendata/station_c0b2.zip"
+      }
+    },
+    {
+      "id": 105,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.7721,
+          43.1849
+        ]
+      },
+      "properties": {
+        "codigo": "C0B3",
+        "nombre": "Urkizu",
+        "tipo": "KA",
+        "fechacreacion": "24/06/2010",
+        "municipio": "Igorre",
+        "provincia": "Bizkaia",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c0b3/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c0b3/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0b3/es_station/data/es_r01dtpd017ddc1b9358e292a672c6071587ffbf750",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0b3/r01Index/station_c0b3-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0b3/opendata/station_c0b3.zip"
+      }
+    },
+    {
+      "id": 106,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.91543,
+          43.0864
+        ]
+      },
+      "properties": {
+        "codigo": "C0B4",
+        "nombre": "Orozko",
+        "descripcion": "VTHLN",
+        "tipo": "KA",
+        "fechacreacion": "01/02/1992",
+        "municipio": "Orozko",
+        "provincia": "Bizkaia",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c0b4/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c0b4/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0b4/es_station/data/es_r01dtpd017ddc1b92c6e292a674369acaed24dff40",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0b4/r01Index/station_c0b4-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0b4/opendata/station_c0b4.zip"
+      }
+    },
+    {
+      "id": 107,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.6767982,
+          43.1920372
+        ]
+      },
+      "properties": {
+        "codigo": "C0B5",
+        "nombre": "Oromino",
+        "tipo": "KA",
+        "fechacreacion": "26/04/2021",
+        "municipio": "Iurreta",
+        "provincia": "Bizkaia",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c0b5/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c0b5/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0b5/es_station/data/es_r01dtpd017ddc1b9300e292a67aa568fe98358096a",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0b5/r01Index/station_c0b5-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0b5/opendata/station_c0b5.zip"
+      }
+    },
+    {
+      "id": 108,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.67238,
+          43.1871
+        ]
+      },
+      "properties": {
+        "codigo": "C0B6",
+        "nombre": "Berna",
+        "descripcion": "THLN",
+        "tipo": "KM",
+        "fechacreacion": "17/09/2010",
+        "municipio": "Iurreta",
+        "provincia": "Bizkaia",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c0b6/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c0b6/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0b6/es_station/data/es_r01dtpd017ddc1b92c1e292a673f14a84e1188c513",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0b6/r01Index/station_c0b6-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0b6/opendata/station_c0b6.zip"
+      }
+    },
+    {
+      "id": 109,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.64657,
+          43.1437
+        ]
+      },
+      "properties": {
+        "codigo": "C0B7",
+        "nombre": "Mañaria",
+        "tipo": "KC",
+        "fechacreacion": "01/01/2009",
+        "municipio": "Izurtza",
+        "provincia": "Bizkaia",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c0b7/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c0b7/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0b7/es_station/data/es_r01dtpd017ddc1b926be292a6771397a9a074fffb7",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0b7/r01Index/station_c0b7-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0b7/opendata/station_c0b7.zip"
+      }
+    },
+    {
+      "id": 110,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.99932,
+          43.3463
+        ]
+      },
+      "properties": {
+        "codigo": "C0B8",
+        "nombre": "Larrainazubi",
+        "tipo": "KA",
+        "fechacreacion": "01/12/2011",
+        "municipio": "Getxo",
+        "provincia": "Bizkaia",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c0b8/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c0b8/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0b8/es_station/data/es_r01dtpd017ddc1b975ae292a6791621b719e02ceed",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0b8/r01Index/station_c0b8-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0b8/opendata/station_c0b8.zip"
+      }
+    },
+    {
+      "id": 111,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.9308,
+          43.2893
+        ]
+      },
+      "properties": {
+        "codigo": "C0B9",
+        "nombre": "Sangroniz",
+        "tipo": "KA",
+        "fechacreacion": "10/02/2012",
+        "municipio": "Sondika",
+        "provincia": "Bizkaia",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c0b9/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c0b9/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0b9/es_station/data/es_r01dtpd017ddc1b96bee292a6771dba1698ba5ee5a",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0b9/r01Index/station_c0b9-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0b9/opendata/station_c0b9.zip"
+      }
+    },
+    {
+      "id": 112,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.5088,
+          43.3448
+        ]
+      },
+      "properties": {
+        "codigo": "C0BA",
+        "nombre": "Oleta",
+        "tipo": "KC",
+        "fechacreacion": "23/02/2010",
+        "municipio": "Amoroto",
+        "provincia": "Bizkaia",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c0ba/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c0ba/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0ba/es_station/data/es_r01dtpd0017ddc1b83c1e292a673dff481b6b94e09",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0ba/r01Index/station_c0ba-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0ba/opendata/station_c0ba.zip"
+      }
+    },
+    {
+      "id": 113,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.526,
+          43.2584
+        ]
+      },
+      "properties": {
+        "codigo": "C0BD",
+        "nombre": "Iruzubieta",
+        "tipo": "KA",
+        "fechacreacion": "26/01/2012",
+        "municipio": "Ziortza-Bolibar",
+        "provincia": "Bizkaia",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c0bd/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c0bd/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0bd/es_station/data/es_r01dtpd017ddc1b92ebe292a67956db576bceefdf6",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0bd/r01Index/station_c0bd-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0bd/opendata/station_c0bd.zip"
+      }
+    },
+    {
+      "id": 114,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.47616,
+          43.3063
+        ]
+      },
+      "properties": {
+        "codigo": "C0BE",
+        "nombre": "Berriatua",
+        "tipo": "KC",
+        "fechacreacion": "03/11/2009",
+        "municipio": "Berriatua",
+        "provincia": "Bizkaia",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c0be/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c0be/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0be/es_station/data/es_r01dtpd017ddc1b932ee292a677104726254862964",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0be/r01Index/station_c0be-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0be/opendata/station_c0be.zip"
+      }
+    },
+    {
+      "id": 115,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.13522,
+          43.214
+        ]
+      },
+      "properties": {
+        "codigo": "C0C0",
+        "nombre": "Zalla",
+        "tipo": "KA",
+        "fechacreacion": "18/12/2020",
+        "municipio": "Zalla",
+        "provincia": "Bizkaia",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c0c0/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c0c0/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0c0/es_station/data/es_r01dtpd017ddc1be22ce292a6794dce58be4ee0a48",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0c0/r01Index/station_c0c0-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0c0/opendata/station_c0c0.zip"
+      }
+    },
+    {
+      "id": 116,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.12755,
+          43.2117
+        ]
+      },
+      "properties": {
+        "codigo": "C0C1",
+        "nombre": "Aranguren",
+        "descripcion": "THLN",
+        "tipo": "KA",
+        "fechacreacion": "26/03/2009",
+        "municipio": "Zalla",
+        "provincia": "Bizkaia",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c0c1/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c0c1/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0c1/es_station/data/es_r01dtpd017ddc1bed7fe292a676ef9a6848b6c5a07",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0c1/r01Index/station_c0c1-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0c1/opendata/station_c0c1.zip"
+      }
+    },
+    {
+      "id": 117,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.21913,
+          43.1771
+        ]
+      },
+      "properties": {
+        "codigo": "C0C2",
+        "nombre": "Balmaseda",
+        "descripcion": "VTHLNI",
+        "tipo": "KC",
+        "fechacreacion": "01/05/1993",
+        "municipio": "Balmaseda",
+        "provincia": "Bizkaia",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c0c2/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c0c2/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0c2/es_station/data/es_r01dtpd017ddc1bee7be292a673d06b868b57a3481",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0c2/r01Index/station_c0c2-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0c2/opendata/station_c0c2.zip"
+      }
+    },
+    {
+      "id": 118,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.0493,
+          43.2025
+        ]
+      },
+      "properties": {
+        "codigo": "C0C3",
+        "nombre": "Sodupe-Cadagua",
+        "tipo": "KC",
+        "fechacreacion": "21/01/2009",
+        "municipio": "Güeñes",
+        "provincia": "Bizkaia",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c0c3/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c0c3/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0c3/es_station/data/es_r01dtpd017ddc1bf5cee292a67a8b084ef9894c8f8",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0c3/r01Index/station_c0c3-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0c3/opendata/station_c0c3.zip"
+      }
+    },
+    {
+      "id": 119,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.04461,
+          43.2024
+        ]
+      },
+      "properties": {
+        "codigo": "C0C4",
+        "nombre": "Sodupe-Herrerias",
+        "descripcion": "En esta estación el sensor de Ritt-Meyer mide bien entre 0 y 575 cm.",
+        "tipo": "KC",
+        "fechacreacion": "10/02/2010",
+        "municipio": "Güeñes",
+        "provincia": "Bizkaia",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c0c4/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c0c4/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0c4/es_station/data/es_r01dtpd017ddc1c0bcbe292a67f8f68a85a3c91d62",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0c4/r01Index/station_c0c4-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0c4/opendata/station_c0c4.zip"
+      }
+    },
+    {
+      "id": 120,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1394712,
+          43.2807248
+        ]
+      },
+      "properties": {
+        "codigo": "C0C5",
+        "nombre": "Arenao",
+        "tipo": "KA",
+        "fechacreacion": "10/06/2021",
+        "municipio": "Galdames",
+        "provincia": "Bizkaia",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c0c5/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c0c5/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0c5/es_station/data/es_r01dtpd017ddc1c0ecde292a67c7bddd443e98fb05",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0c5/r01Index/station_c0c5-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0c5/opendata/station_c0c5.zip"
+      }
+    },
+    {
+      "id": 121,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1687352,
+          43.2792301
+        ]
+      },
+      "properties": {
+        "codigo": "C0C6",
+        "nombre": "Jarralta",
+        "tipo": "KM",
+        "fechacreacion": "05/06/2024",
+        "municipio": "Sopuerta",
+        "provincia": "Bizkaia",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c0c6/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c0c6/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0c6/es_station/data/es_r01dtpd1906cdca040417728ce41d4bf1e869aac76",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0c6/r01Index/station_c0c6-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0c6/opendata/station_c0c6.zip"
+      }
+    },
+    {
+      "id": 122,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.2742476,
+          43.2776134
+        ]
+      },
+      "properties": {
+        "codigo": "C0C7",
+        "nombre": "Cueto",
+        "tipo": "KM",
+        "fechacreacion": "27/05/2024",
+        "municipio": "Trucios-Turtzioz",
+        "provincia": "Bizkaia",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c0c7/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c0c7/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0c7/es_station/data/es_r01dtpd1906cdcb1091253439ab3ee5ca57b03b32f",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0c7/r01Index/station_c0c7-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0c7/opendata/station_c0c7.zip"
+      }
+    },
+    {
+      "id": 123,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.5585943,
+          43.2985761
+        ]
+      },
+      "properties": {
+        "codigo": "C0C8",
+        "nombre": "Aulesti",
+        "tipo": "KM",
+        "fechacreacion": "05/06/2024",
+        "municipio": "Aulesti",
+        "provincia": "Bizkaia",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c0c8/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c0c8/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0c8/es_station/data/es_r01dtpd1906cdcc494231a159b75f530ab4b8a04d3",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0c8/r01Index/station_c0c8-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0c8/opendata/station_c0c8.zip"
+      }
+    },
+    {
+      "id": 124,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.39376,
+          43.2526
+        ]
+      },
+      "properties": {
+        "codigo": "C0C9",
+        "nombre": "Karrantza",
+        "tipo": "KA",
+        "fechacreacion": "15/01/2025",
+        "municipio": "Karrantza Harana/Valle de Carranza",
+        "provincia": "Bizkaia",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c0c9/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c0c9/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0c9/es_station/data/es_r01dtpd0195507cf2764c9ffb83cfcf29256d2321f",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0c9/r01Index/station_c0c9-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0c9/opendata/station_c0c9.zip"
+      }
+    },
+    {
+      "id": 125,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.497656,
+          43.333341
+        ]
+      },
+      "properties": {
+        "codigo": "C0CA",
+        "nombre": "Arbina",
+        "tipo": "KA",
+        "fechacreacion": "16/12/2024",
+        "municipio": "Amoroto",
+        "provincia": "Bizkaia",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c0ca/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c0ca/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0ca/es_station/data/es_r01dtpd019420a5c33071f8cb7fe9b4a1f7aff64d9",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0ca/r01Index/station_c0ca-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0ca/opendata/station_c0ca.zip"
+      }
+    },
+    {
+      "id": 126,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.258372,
+          43.275675
+        ]
+      },
+      "properties": {
+        "codigo": "C0CB",
+        "nombre": "Pando",
+        "tipo": "KA",
+        "fechacreacion": "15/01/2025",
+        "municipio": "Trucios-Turtzioz",
+        "provincia": "Bizkaia",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c0cb/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c0cb/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0cb/es_station/data/es_r01dtpd0195507d19904c9ffb84047df82af4293f8",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0cb/r01Index/station_c0cb-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0cb/opendata/station_c0cb.zip"
+      }
+    },
+    {
+      "id": 127,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.47239,
+          43.013
+        ]
+      },
+      "properties": {
+        "codigo": "C0D0",
+        "nombre": "Urkulu",
+        "tipo": "KA",
+        "fechacreacion": "23/01/2009",
+        "municipio": "Aretxabaleta",
+        "provincia": "Gipuzkoa",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c0d0/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c0d0/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0d0/es_station/data/es_r01dtpd017ddc1c0b74e292a671b53d6e58992a26a",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0d0/r01Index/station_c0d0-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0d0/opendata/station_c0d0.zip"
+      }
+    },
+    {
+      "id": 128,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.43755,
+          43.0621
+        ]
+      },
+      "properties": {
+        "codigo": "C0D1",
+        "nombre": "Oñati",
+        "descripcion": "Circuito y transformador de calefaccion EUITI TC-07125-3 el dia 28/11/2005 12:51:25",
+        "tipo": "KC",
+        "fechacreacion": "05/03/2009",
+        "municipio": "Oñati",
+        "provincia": "Gipuzkoa",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c0d1/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c0d1/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0d1/es_station/data/es_r01dtpd017ddc1c105fe292a671fe179f364f5cc57",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0d1/r01Index/station_c0d1-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0d1/opendata/station_c0d1.zip"
+      }
+    },
+    {
+      "id": 129,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.44745,
+          43.0835
+        ]
+      },
+      "properties": {
+        "codigo": "C0D2",
+        "nombre": "San Prudentzio",
+        "descripcion": "TNC",
+        "tipo": "KC",
+        "fechacreacion": "22/12/2009",
+        "municipio": "Bergara",
+        "provincia": "Gipuzkoa",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c0d2/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c0d2/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0d2/es_station/data/es_r01dtpd017ddc1c0ac9e292a67bc3a5e1870bc176e",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0d2/r01Index/station_c0d2-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0d2/opendata/station_c0d2.zip"
+      }
+    },
+    {
+      "id": 130,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.50123,
+          43.1547
+        ]
+      },
+      "properties": {
+        "codigo": "C0D3",
+        "nombre": "Aixola",
+        "tipo": "KA",
+        "fechacreacion": "05/02/2010",
+        "municipio": "Elgeta",
+        "provincia": "Gipuzkoa",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c0d3/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c0d3/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0d3/es_station/data/es_r01dtpd017ddc1c08e1e292a677477486a54d9b4ee",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0d3/r01Index/station_c0d3-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0d3/opendata/station_c0d3.zip"
+      }
+    },
+    {
+      "id": 131,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.323,
+          43.1141
+        ]
+      },
+      "properties": {
+        "codigo": "C0DB",
+        "nombre": "Aitzu",
+        "descripcion": "Circuito y transformador de calefaccion EUITI TC-07116-3 el dia 10/05/2005 12:27",
+        "tipo": "KC",
+        "fechacreacion": "17/12/2009",
+        "municipio": "Zumarraga",
+        "provincia": "Gipuzkoa",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c0db/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c0db/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0db/es_station/data/es_r01dtpd017ddc1c08bde292a67a2c7c39c7725eff0",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0db/r01Index/station_c0db-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0db/opendata/station_c0db.zip"
+      }
+    },
+    {
+      "id": 132,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.25601,
+          43.1751
+        ]
+      },
+      "properties": {
+        "codigo": "C0DC",
+        "nombre": "Ibai Eder",
+        "descripcion": "Transformador de calefaccion EUITI TR-07127-3 el dia 28/12/2005 11:50:17",
+        "tipo": "KC",
+        "fechacreacion": "22/04/2009",
+        "municipio": "Azpeitia",
+        "provincia": "Gipuzkoa",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c0dc/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c0dc/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0dc/es_station/data/es_r01dtpd0017ddc1c0ec2e292a67f9fc163c36022c0",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0dc/r01Index/station_c0dc-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0dc/opendata/station_c0dc.zip"
+      }
+    },
+    {
+      "id": 133,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.24219,
+          43.2553
+        ]
+      },
+      "properties": {
+        "codigo": "C0DD",
+        "nombre": "Aizarnazabal",
+        "descripcion": "Solidos en suspension desde el 30/09/05",
+        "tipo": "KC",
+        "fechacreacion": "17/02/2010",
+        "municipio": "Zestoa",
+        "provincia": "Gipuzkoa",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c0dd/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c0dd/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0dd/es_station/data/es_r01dtpd017ddc1c0674e292a675bc55542a3190ac9",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0dd/r01Index/station_c0dd-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0dd/opendata/station_c0dd.zip"
+      }
+    },
+    {
+      "id": 134,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.23513,
+          43.1135
+        ]
+      },
+      "properties": {
+        "codigo": "C0DE",
+        "nombre": "Matxinbenta",
+        "tipo": "KA",
+        "fechacreacion": "04/11/2010",
+        "municipio": "Beasain",
+        "provincia": "Gipuzkoa",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c0de/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c0de/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0de/es_station/data/es_r01dtpd017ddc1bfb0ae292a67e685eb22b97c6a8c",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0de/r01Index/station_c0de-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0de/opendata/station_c0de.zip"
+      }
+    },
+    {
+      "id": 135,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.15086,
+          43.0335
+        ]
+      },
+      "properties": {
+        "codigo": "C0E1",
+        "nombre": "Amundarain",
+        "descripcion": "Circuito y transformador de calefaccion EUITI TC-07114-3 el dia 16/05/2005 11:22:01",
+        "tipo": "KA",
+        "fechacreacion": "20/05/2009",
+        "municipio": "Zaldibia",
+        "provincia": "Gipuzkoa",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c0e1/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c0e1/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0e1/es_station/data/es_r01dtpd017ddc1c3cf3e292a67a631fe9f02c85364",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0e1/r01Index/station_c0e1-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0e1/opendata/station_c0e1.zip"
+      }
+    },
+    {
+      "id": 136,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.17748,
+          43.0179
+        ]
+      },
+      "properties": {
+        "codigo": "C0E5",
+        "nombre": "Agauntza",
+        "tipo": "KA",
+        "fechacreacion": "12/05/2010",
+        "municipio": "Ataun",
+        "provincia": "Gipuzkoa",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c0e5/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c0e5/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0e5/es_station/data/es_r01dtpd017ddc1c5269e292a6751e9764d446cbb7e",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0e5/r01Index/station_c0e5-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0e5/opendata/station_c0e5.zip"
+      }
+    },
+    {
+      "id": 137,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.21877,
+          43.052
+        ]
+      },
+      "properties": {
+        "codigo": "C0E7",
+        "nombre": "Estanda",
+        "descripcion": "THNCL esto es una prueba",
+        "tipo": "KC",
+        "fechacreacion": "25/11/2008",
+        "municipio": "Beasain",
+        "provincia": "Gipuzkoa",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c0e7/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c0e7/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0e7/es_station/data/es_r01dtpd017ddc1c5429e292a672142d3d568dc1e82",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0e7/r01Index/station_c0e7-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0e7/opendata/station_c0e7.zip"
+      }
+    },
+    {
+      "id": 138,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.04772,
+          43.1148
+        ]
+      },
+      "properties": {
+        "codigo": "C0E8",
+        "nombre": "Araxes",
+        "tipo": "KA",
+        "fechacreacion": "30/03/2011",
+        "municipio": "Lizartza",
+        "provincia": "Gipuzkoa",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c0e8/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c0e8/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0e8/es_station/data/es_r01dtpd00017ddc1c51a3e292a675d35fc5d9897f5",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0e8/r01Index/station_c0e8-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0e8/opendata/station_c0e8.zip"
+      }
+    },
+    {
+      "id": 139,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.10488,
+          43.1018
+        ]
+      },
+      "properties": {
+        "codigo": "C0E9",
+        "nombre": "Alegia",
+        "descripcion": "Control de calefaccion EUITI y trasformador TR-07149-3 el dia 07/03/2007 11:40:54",
+        "tipo": "KC",
+        "fechacreacion": "17/07/2009",
+        "municipio": "Alegia",
+        "provincia": "Gipuzkoa",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c0e9/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c0e9/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0e9/es_station/data/es_r01dtpd017ddc1c7cc7e292a67efaf2f7a86d0683f",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0e9/r01Index/station_c0e9-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0e9/opendata/station_c0e9.zip"
+      }
+    },
+    {
+      "id": 140,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.04845,
+          43.1424
+        ]
+      },
+      "properties": {
+        "codigo": "C0EA",
+        "nombre": "Belauntza",
+        "tipo": "KC",
+        "fechacreacion": "12/09/2008",
+        "municipio": "Belauntza",
+        "provincia": "Gipuzkoa",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c0ea/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c0ea/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0ea/es_station/data/es_r01dtpd017ddc1c0894e292a678ea3784ebb7dcb00",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0ea/r01Index/station_c0ea-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0ea/opendata/station_c0ea.zip"
+      }
+    },
+    {
+      "id": 141,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.02109,
+          43.2527
+        ]
+      },
+      "properties": {
+        "codigo": "C0EC",
+        "nombre": "Lasarte",
+        "tipo": "KC",
+        "fechacreacion": "22/10/2009",
+        "municipio": "Lasarte-Oria",
+        "provincia": "Gipuzkoa",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c0ec/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c0ec/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0ec/es_station/data/es_r01dtpd017ddc1c0c44e292a67d94b9fd44c3b3419",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0ec/r01Index/station_c0ec-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0ec/opendata/station_c0ec.zip"
+      }
+    },
+    {
+      "id": 142,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.93922,
+          43.242
+        ]
+      },
+      "properties": {
+        "codigo": "C0F0",
+        "nombre": "Ereñozu",
+        "descripcion": "Control de calefaccion EUI TR07170-3",
+        "tipo": "KC",
+        "fechacreacion": "26/05/2009",
+        "municipio": "Hernani",
+        "provincia": "Gipuzkoa",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c0f0/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c0f0/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0f0/es_station/data/es_r01dtpd017ddc1c7bace292a671681f5f5aed0011a",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0f0/r01Index/station_c0f0-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0f0/opendata/station_c0f0.zip"
+      }
+    },
+    {
+      "id": 143,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.8007078,
+          43.2423581
+        ]
+      },
+      "properties": {
+        "codigo": "C0F1",
+        "nombre": "Eskas",
+        "tipo": "KA",
+        "fechacreacion": "18/10/2017",
+        "municipio": "Goizueta",
+        "provincia": "Navarra",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c0f1/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c0f1/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0f1/es_station/data/es_r01dtpd017ddc1c7348e292a67c95015177dcd8a1f",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0f1/r01Index/station_c0f1-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0f1/opendata/station_c0f1.zip"
+      }
+    },
+    {
+      "id": 144,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.88459,
+          43.3087
+        ]
+      },
+      "properties": {
+        "codigo": "C0F4",
+        "nombre": "Oiartzun",
+        "descripcion": "Solidos en suspension desde el 27/09/05. Tiene una cuenca de 56,54 km2",
+        "tipo": "KC",
+        "fechacreacion": "12/03/2009",
+        "municipio": "Errenteria",
+        "provincia": "Gipuzkoa",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_c0f4/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_c0f4/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0f4/es_station/data/es_r01dtpd017ddc1c7932e292a67cb929ac9cda3a771",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0f4/r01Index/station_c0f4-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_c0f4/opendata/station_c0f4.zip"
+      }
+    },
+    {
+      "id": 145,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.74107,
+          43.0763
+        ]
+      },
+      "properties": {
+        "codigo": "E000",
+        "nombre": "Olabarria",
+        "tipo": "KA",
+        "fechacreacion": "05/09/2014",
+        "municipio": "Zeanuri",
+        "provincia": "Bizkaia",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_e000/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_e000/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_e000/es_station/data/es_r01dtpd017ddc1ef62be292a67a2d8356f9f6ba5e4",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_e000/r01Index/station_e000-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_e000/opendata/station_e000.zip"
+      }
+    },
+    {
+      "id": 146,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.747883,
+          43.089022
+        ]
+      },
+      "properties": {
+        "codigo": "E001",
+        "nombre": "Undurraga",
+        "tipo": "KA",
+        "fechacreacion": "02/07/2014",
+        "municipio": "Zeanuri",
+        "provincia": "Bizkaia",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_e001/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_e001/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_e001/es_station/data/es_r01dtpd017ddc1efe7ae292a67e1b8f7babc7b2a90",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_e001/r01Index/station_e001-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_e001/opendata/station_e001.zip"
+      }
+    },
+    {
+      "id": 147,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.7184411,
+          43.4189241
+        ]
+      },
+      "properties": {
+        "codigo": "M09A",
+        "nombre": "Mareógrafo Bermeo",
+        "tipo": "KA",
+        "fechacreacion": "13/12/2017",
+        "municipio": "Bermeo",
+        "provincia": "Bizkaia",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_m09a/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_m09a/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_m09a/es_station/data/es_r01dtpd017ddc1ef63ce292a67decdb5f3ec0c7e18",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_m09a/r01Index/station_m09a-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_m09a/opendata/station_m09a.zip"
+      }
+    },
+    {
+      "id": 148,
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.977206,
+          43.302611
+        ]
+      },
+      "properties": {
+        "codigo": "M09B",
+        "nombre": "Mareógrafo Erandio",
+        "tipo": "KA",
+        "fechacreacion": "27/02/2025",
+        "municipio": "Erandio",
+        "provincia": "Bizkaia",
+        "urlamigable": "https://www.euskadi.eus/estacion_meteorologica/station_m09b/web01-ejeduki/es/",
+        "urlfisica": "https://www.euskadi.eus/web01-ejeduki/es/contenidos/estacion_meteo/station_m09b/es_station/web.html",
+        "xmldatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_m09b/es_station/data/es_r01dtpd195507ec8c97266ae7c3b68f210fd7e1d03",
+        "xmlmetadatos": "https://www.euskadi.eus/contenidos/estacion_meteo/station_m09b/r01Index/station_m09b-idxContent.xml",
+        "zip": "https://www.euskadi.eus/contenidos/estacion_meteo/station_m09b/opendata/station_m09b.zip"
+      }
+    }
+  ]
+}
