@@ -3,6 +3,7 @@ from datetime import datetime, timedelta
 from src.clients.siar_client import SiarClient
 from src.clients.euskalmet_client import EuskalmetClient
 from src.clients.meteogalicia_client import MeteoGaliciaClient
+from src.clients.aemet_client import AemetClient
 
 def run_siar_for_aragon():
     estaciones_siar_aragon = [
@@ -38,7 +39,16 @@ def run_meteogalicia():
     except Exception as e:
         print(f"❌ Error inesperado en MeteoGalicia: {e}")
 
+def run_aemet():
+    try:
+        client = AemetClient()
+        client.ejecutar()
+    except Exception as e:
+        print(f"❌ Error inesperado en AEMET: {e}")
+
 if __name__ == "__main__":
     #run_siar_for_aragon()
-    run_euskalmet()
+    #run_euskalmet()
     #run_meteogalicia()
+    run_aemet()
+

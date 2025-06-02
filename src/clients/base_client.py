@@ -24,3 +24,6 @@ class BaseClient:
     def log(self, mensaje: str):
         """Log formateado uniforme por fuente."""
         print(f"[{self.nombre}] {mensaje}")
+
+
+

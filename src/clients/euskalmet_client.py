@@ -27,6 +27,7 @@ class EuskalmetClient(BaseClient):
                 self.log("❌ No se pudo extraer JSON desde jsonCallback(...)")
         except Exception as e:
             self.log(f"Error al descargar estaciones: {e}")
+
     def descargar_mediciones(self):
         try:
             response = requests.get(self.url_mediciones)
