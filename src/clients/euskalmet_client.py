@@ -10,7 +10,7 @@ class EuskalmetClient(BaseClient):
         super().__init__("euskalmet")
 
         self.url_estaciones = "https://opendata.euskadi.eus/contenidos/ds_meteorologicos/estaciones_meteorologicas/opendata/estaciones-padding.geojson"
-        self.url_mediciones = "https://opendata.euskadi.eus/contenidos_recurso/opendata/meteorologia_lecturas/opendata/.json"
+        #self.url_mediciones = "https://opendata.euskadi.eus/contenidos_recurso/opendata/meteorologia_lecturas/opendata/.json"
 
     def descargar_estaciones(self):
         try:
