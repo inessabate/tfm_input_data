@@ -47,8 +47,8 @@ def run_aemet():
         print(f"❌ Error inesperado en AEMET: {e}")
 
 if __name__ == "__main__":
-    #run_siar_for_aragon()
-    #run_euskalmet()
-    #run_meteogalicia()
+    run_siar_for_aragon()
+    run_euskalmet()
+    run_meteogalicia()
     run_aemet()
 
