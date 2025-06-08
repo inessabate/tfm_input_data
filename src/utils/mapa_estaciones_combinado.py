@@ -1,80 +1,55 @@
-
-import json
+import pandas as pd
 import folium
+from folium.plugins import MarkerCluster
 from pathlib import Path
 
-def dms_to_decimal(dms_str: str, is_lat: bool) -> float:
-    d = int(dms_str[:2])
-    m = int(dms_str[2:4])
-    s = int(dms_str[4:6])
-    direction = dms_str[-1]
-    decimal = d + m / 60 + s / 3600
-    if (is_lat and direction == "S") or (not is_lat and direction == "W"):
-        decimal *= -1
-    return decimal
-
-def generar_mapa_estaciones_tres_fuentes(path_euskalmet, path_aemet, path_meteogalicia, output_html):
+def generar_mapa_desde_excel(path_excel, path_output_html):
+    df = pd.read_excel(path_excel)
     mapa = folium.Map(location=[40.0, -3.5], zoom_start=6)
+    marker_cluster = MarkerCluster().add_to(mapa)
 
-    # Euskalmet
-    with open(path_euskalmet, "r", encoding="utf-8") as f:
-        euskalmet_data = json.load(f)
-    for feature in euskalmet_data["features"]:
-        coords = feature["geometry"]["coordinates"]
-        props = feature["properties"]
-        nombre = props.get("nombre", "Sin nombre")
-        municipio = props.get("municipio", "")
-        popup_text = f"<b>{nombre}</b><br>{municipio}"
-        folium.Marker(
-            location=[coords[1], coords[0]],
-            popup=popup_text,
-            tooltip=nombre,
-            icon=folium.Icon(color="blue", icon="cloud")
-        ).add_to(mapa)
+    colores = {
+        "AEMET": "green",
+        "Euskalmet": "blue",
+        "MeteoGalicia": "red"
+    }
 
-    # AEMET
-    with open(path_aemet, "r", encoding="utf-8") as f:
-        aemet_data = json.load(f)
-    for est in aemet_data:
+    for _, row in df.iterrows():
         try:
-            lat = dms_to_decimal(est["latitud"], is_lat=True)
-            lon = dms_to_decimal(est["longitud"], is_lat=False)
-            nombre = est.get("nombre", "Sin nombre")
-            provincia = est.get("provincia", "")
-            popup_text = f"<b>{nombre}</b><br>{provincia}"
+            nombre = row["estacion"]
+            lat = row["latitud"]
+            lon = row["longitud"]
+            fuente = row["fuente"]
+            popup = f"<b>{nombre}</b><br>{fuente}"
             folium.Marker(
                 location=[lat, lon],
-                popup=popup_text,
+                popup=popup,
                 tooltip=nombre,
-                icon=folium.Icon(color="green", icon="info-sign")
-            ).add_to(mapa)
+                icon=folium.Icon(color=colores.get(fuente, "gray"))
+            ).add_to(marker_cluster)
         except Exception as e:
-            print(f"Error procesando estación AEMET: {est.get('nombre', 'sin nombre')} -> {e}")
+            print(f"❌ Error con estación {row.get('estacion', 'sin nombre')}: {e}")
 
-    # MeteoGalicia
-    with open(path_meteogalicia, "r", encoding="utf-8") as f:
-        meteogalicia_data = json.load(f)
-    for feature in meteogalicia_data:
-        coords = feature["geometry"]["coordinates"]
-        props = feature["properties"]
-        nombre = props.get("name", "Sin nombre")
-        municipio = props.get("municipality", "")
-        popup_text = f"<b>{nombre}</b><br>{municipio}"
-        folium.Marker(
-            location=[coords[1], coords[0]],
-            popup=popup_text,
-            tooltip=nombre,
-            icon=folium.Icon(color="red", icon="star")
-        ).add_to(mapa)
+    # Añadir leyenda
+    leyenda = """
+    <div style="
+        position: fixed; bottom: 50px; left: 50px; width: 180px; height: 120px;
+        background-color: white; z-index:9999; font-size:14px;
+        border:2px solid grey; padding: 10px; box-shadow: 2px 2px 6px rgba(0,0,0,0.3);">
+        <b>🗺️ Leyenda</b><br>
+        <i class="fa fa-map-marker fa-2x" style="color:green"></i> AEMET<br>
+        <i class="fa fa-map-marker fa-2x" style="color:blue"></i> Euskalmet<br>
+        <i class="fa fa-map-marker fa-2x" style="color:red"></i> MeteoGalicia
+    </div>
+    """
+    mapa.get_root().html.add_child(folium.Element(leyenda))
 
-    Path(output_html).parent.mkdir(parents=True, exist_ok=True)
-    mapa.save(output_html)
-    print(f"✔ Mapa combinado guardado en: {output_html}")
+    Path(path_output_html).parent.mkdir(parents=True, exist_ok=True)
+    mapa.save(path_output_html)
+    print(f"✔ Mapa guardado en: {path_output_html}")
 
 if __name__ == "__main__":
-    ROOT_DIR = Path(__file__).resolve().parents[2]
-    path_euskalmet = ROOT_DIR / "data" / "raw" / "euskalmet" / "estaciones_euskalmet_2025-06-01.json"
-    path_aemet = ROOT_DIR / "data" / "raw" / "aemet" / "estaciones_aemet_2025-06-02.json"
-    path_meteogalicia = ROOT_DIR / "data" / "raw" / "meteogalicia" / "localidades_meteogalicia_2025-06-02.json"
-    path_mapa = ROOT_DIR / "data" / "maps" / "mapa_estaciones_combinado.html"
-    generar_mapa_estaciones_tres_fuentes(path_euskalmet, path_aemet, path_meteogalicia, path_mapa)
+    ROOT = Path(__file__).resolve().parents[2]
+    path_excel = ROOT / "data" / "clean" / "estaciones_combinadas.xlsx"
+    path_html = ROOT / "data" / "maps" / "mapa_estaciones_combinadas.html"
+    generar_mapa_desde_excel(path_excel, path_html)

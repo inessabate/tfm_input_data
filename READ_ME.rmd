@@ -1,9 +1,8 @@
-
-
 tfm_apis_input_data/
 ├── src/
 │   ├── main.py
 │   ├── clients/
+│   │   ├── aemet_client.py
 │   │   ├── base_client.py
 │   │   ├── siar_client.py
 │   │   ├── meteogalicia_client.py
@@ -18,3 +17,9 @@ tfm_apis_input_data/
 ├── .env
 ├── requirements.txt
 └── README.md
+
+
+
+## 🔐 Environment configuration
+
+Before running the project, create a `.env` file in the root directory based on the `.env.example` file:

@@ -1,43 +1,55 @@
-from src.clients.base_client import BaseClient
-
+import json
 import requests
-from dotenv import load_dotenv
-import os
+from pathlib import Path
 
-class MeteoGaliciaClient(BaseClient):
-    def __init__(self):
-        load_dotenv()
-        api_key = os.getenv("API_KEY_METEOGALICIA")
-        if not api_key:
-            raise ValueError("API_KEY_METEOGALICIA no está definida en .env")
-        super().__init__("meteogalicia")
-        self.api_key = api_key
-        self.base_url = "https://servizos.meteogalicia.gal/apiv4"
+def fetch_meteogalicia_estaciones_reales(output_json):
+    print("⏳ Descargando estaciones desde Rede_Estacions...")
 
-    def fetch_localidades(self):
-        localidades = []
-        for letra in 'abcdefghijklmnopqrstuvwxyz':
-            url = f"{self.base_url}/findPlaces?location={letra}&API_KEY={self.api_key}"
-            try:
-                response = requests.get(url)
-                if response.status_code == 200:
-                    data = response.json()
-                    features = data.get("features", [])
-                    if features:
-                        localidades.extend(features)
-                    else:
-                        self.log(f"Sin resultados para letra '{letra}'")
-                else:
-                    self.log(f"Respuesta no exitosa para letra '{letra}': {response.status_code}")
-            except Exception as e:
-                self.log(f"Error con letra '{letra}': {e}")
-        return localidades
+    base_url = (
+        "https://ideg.xunta.gal/meteogalicia/rest/services/"
+        "Meteogalicia_Observacion/RedMeteorologica/MapServer/1/query"
+    )
 
-    def descargar_estaciones(self):
-        localidades = self.fetch_localidades()
-        self.guardar_json("localidades_meteogalicia", localidades)
+    params = {
+        "where": "1=1",
+        "outFields": "*",
+        "returnGeometry": "true",
+        "f": "json",
+        "resultOffset": 0,
+        "resultRecordCount": 2000
+    }
 
-    def ejecutar(self):
-        self.log("Iniciando descarga de localidades MeteoGalicia...")
-        self.descargar_estaciones()
-        self.log("Finalizado.")
+    all_features = []
+
+    while True:
+        response = requests.get(base_url, params=params)
+        if response.status_code != 200:
+            print(f"❌ Error {response.status_code}: {response.text[:300]}")
+            break
+
+        data = response.json()
+        features = data.get("features", [])
+        if not features:
+            print("✅ Descarga finalizada.")
+            break
+
+        all_features.extend(features)
+        print(f"🔄 Total acumulado: {len(all_features)}")
+        params["resultOffset"] += params["resultRecordCount"]
+
+    result = {
+        "type": "FeatureCollection",
+        "features": all_features
+    }
+
+    Path(output_json).parent.mkdir(parents=True, exist_ok=True)
+    with open(output_json, "w", encoding="utf-8") as f:
+        json.dump(result, f, indent=2)
+
+    print(f"✔ Estaciones guardadas en: {output_json}")
+    print(f"📊 Total: {len(all_features)} estaciones")
+
+if __name__ == "__main__":
+    ROOT = Path(__file__).resolve().parents[2]
+    output = ROOT / "data" / "raw" / "meteogalicia" / "estaciones_reales_meteogalicia.json"
+    fetch_meteogalicia_estaciones_reales(output)
