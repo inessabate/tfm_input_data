@@ -5,68 +5,69 @@ from src.clients.meteogalicia_client import MeteoGaliciaClient
 from src.clients.aemet_client import AemetClient
 
 def run_siar_for_aragon():
-    estaciones_siar_aragon = [
+    siar_stations_aragon = [
         "HU01", "HU02", "HU03", "HU04", "HU05", "HU06", "HU07", "HU08", "HU09", "HU10"
     ]
-    ayer = datetime.today().date() - timedelta(days=1)
-    anteayer = ayer - timedelta(days=1)
+    yesterday = datetime.today().date() - timedelta(days=1)
+    day_before_yesterday = yesterday - timedelta(days=1)
 
-    for dia in [ayer, anteayer]:
+    for day in [yesterday, day_before_yesterday]:
         try:
             siar = SiarClient(
-                estaciones=estaciones_siar_aragon,
-                fecha_inicial=str(dia),
-                fecha_final=str(dia)
+                estaciones=siar_stations_aragon,
+                fecha_inicial=str(day),
+                fecha_final=str(day)
             )
             siar.ejecutar()
             break
         except Exception as e:
-            print(f"❌ Error inesperado en SIAR ({dia}): {e}")
+            print(f"❌ Unexpected error in SIAR ({day}): {e}")
 
-def run_siar_estaciones():
+def run_siar_stations():
     try:
         client = SiarClient()
-        client.descargar_estaciones_siar()
+        client.ejecutar()
     except Exception as e:
-        print(f"❌ Error descargando estaciones SIAR: {e}")
+        print(f"❌ Error downloading SIAR stations: {e}")
 
 def run_euskalmet():
     try:
         client = EuskalmetClient()
         client.ejecutar()
     except Exception as e:
-        print(f"❌ Error inesperado en Euskalmet: {e}")
+        print(f"❌ Unexpected error in Euskalmet: {e}")
 
 def run_meteogalicia():
     try:
         client = MeteoGaliciaClient()
         client.ejecutar()
     except Exception as e:
-        print(f"❌ Error inesperado en MeteoGalicia: {e}")
+        print(f"❌ Unexpected error in MeteoGalicia: {e}")
 
 def run_aemet():
     try:
         client = AemetClient()
         client.ejecutar()
     except Exception as e:
-        print(f"❌ Error inesperado en AEMET: {e}")
+        print(f"❌ Unexpected error in AEMET: {e}")
 
 if __name__ == "__main__":
-    modo = "siar_estaciones"  # ← Cambia esto según lo que quieras ejecutar
+    mode = "all"  # ← Change this according to what you want to run
 
-    if modo == "siar_aragon":
+
+    if mode == "siar_aragon":
         run_siar_for_aragon()
-    elif modo == "siar_estaciones":
-        run_siar_estaciones()
-    elif modo == "euskalmet":
+    elif mode == "siar_stations":
+        run_siar_stations()
+    elif mode == "euskalmet":
         run_euskalmet()
-    elif modo == "meteogalicia":
+    elif mode == "meteogalicia":
         run_meteogalicia()
-    elif modo == "aemet":
+    elif mode == "aemet":
         run_aemet()
-    elif modo == "todo":
+    elif mode == "all":
         run_siar_for_aragon()
-        run_siar_estaciones()
+        run_siar_stations()
         run_euskalmet()
         run_meteogalicia()
         run_aemet()

@@ -31,7 +31,7 @@ class SiarClient(BaseClient):
         else:
             raise RuntimeError(f"Error {response.status_code}: {response.text}")
 
-    def descargar_mediciones(self):
+    def get_daily_observations(self):
         for est in self.estaciones:
             try:
                 self.log(f"Retrieving data from station {est}")
@@ -43,7 +43,7 @@ class SiarClient(BaseClient):
             except Exception as e:
                 self.log(f"❌ Error at {est}: {e}")
 
-    def descargar_estaciones_siar(self):
+    def get_siar_stations(self):
         url = "https://servicio.mapama.gob.es/apisiar/api/v1/Estaciones"
         params = {"ClaveAPI": self.api_key}
 
@@ -72,5 +72,5 @@ class SiarClient(BaseClient):
 
     def ejecutar(self):
         self.log(f"Starting {self.name.upper()} download...")
-        self.descargar_mediciones()
+        self.get_daily_observations()
         self.log(f"Finished data retrieval from {self.name.upper()}.")
