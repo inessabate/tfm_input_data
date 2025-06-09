@@ -34,14 +34,14 @@ class SiarClient(BaseClient):
     def descargar_mediciones(self):
         for est in self.estaciones:
             try:
-                self.log(f"Consultando estación {est}")
+                self.log(f"Retrieving data from station {est}")
                 datos = self.fetch_datos_estacion(est)
                 if datos:
-                    self.guardar_json(f"mediciones_{est}", datos)
+                    self.save_json(f"measures_{est}", datos, include_date=False)
                 else:
-                    self.log(f"No se encontraron datos para {est}")
+                    self.log(f"No data found for {est}")
             except Exception as e:
-                self.log(f"❌ Error con {est}: {e}")
+                self.log(f"❌ Error at {est}: {e}")
 
     def descargar_estaciones_siar(self):
         url = "https://servicio.mapama.gob.es/apisiar/api/v1/Estaciones"
@@ -49,7 +49,7 @@ class SiarClient(BaseClient):
 
         response = requests.get(url, params=params)
         if response.status_code != 200:
-            raise RuntimeError(f"Error al obtener estaciones: {response.status_code} - {response.text}")
+            raise RuntimeError(f"Error when fetching stations {response.status_code} - {response.text}")
 
         estaciones = response.json()
         registros = []
@@ -71,6 +71,6 @@ class SiarClient(BaseClient):
         print(f"✔ Listado de estaciones SIAR guardado en {output_path}")
 
     def ejecutar(self):
-        self.log("Iniciando descarga de SIAR...")
+        self.log(f"Starting {self.name.upper()} download...")
         self.descargar_mediciones()
-        self.log("Finalizado.")
+        self.log(f"Finished data retrieval from {self.name.upper()}.")
