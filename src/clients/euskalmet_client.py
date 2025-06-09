@@ -22,22 +22,31 @@ class EuskalmetClient(BaseClient):
             if match:
                 json_text = match.group(1)
                 data = json.loads(json_text)
-                self.guardar_json("estaciones_euskalmet", data)
+                self.save_json("estaciones_euskalmet", data, include_date=False)
             else:
-                self.log("❌ No se pudo extraer JSON desde jsonCallback(...)")
+
+                self.log("❌ Could not extract JSON from jsonCallback(...)")
         except Exception as e:
-            self.log(f"Error al descargar estaciones: {e}")
+            self.log(f"Error in retrieving stations: {e}")
 
     def descargar_mediciones(self):
+        """
+        Download measurements from Euskalmet and save them as JSON.
+        The URL for measurements is not provided in the original code, so this method
+        is a placeholder. You may need to adjust the URL based on actual API documentation.
+        """
         try:
             response = requests.get(self.url_mediciones)
             response.raise_for_status()
-            self.guardar_json("mediciones_euskalmet", response.json())
+            self.save_json("mediciones_euskalmet", response.json(), include_date=True)
         except Exception as e:
             self.log(f"Error al descargar mediciones: {e}")
 
     def ejecutar(self):
-        self.log("Iniciando descarga de Euskalmet...")
+        """
+        Execute the Euskalmet client to download stations and measurements.
+        """
+        self.log(f"Starting {self.name.upper()} download...")
         self.descargar_estaciones()
         self.descargar_mediciones()
-        self.log("Finalizado.")
+        self.log(f"Finished data retrieval from {self.name.upper()}.")

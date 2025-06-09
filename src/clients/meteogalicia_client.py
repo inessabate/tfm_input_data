@@ -45,13 +45,10 @@ class MeteoGaliciaClient(BaseClient):
             "features": all_features
         }
 
-        output_path = Path("data/raw/meteogalicia/estaciones_reales_meteogalicia.json")
-        output_path.parent.mkdir(parents=True, exist_ok=True)
-        with open(output_path, "w", encoding="utf-8") as f:
-            json.dump(result, f, indent=2)
+        self.save_json("estaciones_meteogalicia", result, include_date=False)
 
-        print(f"✔ Estaciones guardadas en: {output_path}")
-        print(f"📊 Total: {len(all_features)} estaciones")
 
     def ejecutar(self):
+        self.log(f"Starting {self.name.upper()} download...")
         self.fetch_estaciones_reales()
+        self.log(f"Finished data retrieval from {self.name.upper()}.")
