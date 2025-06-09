@@ -16,28 +16,28 @@ class AemetClient(BaseClient):
             "Accept": "application/json",
             "api_key": self.api_key
         }
-        self.url_estaciones = "https://opendata.aemet.es/opendata/api/valores/climatologicos/inventarioestaciones/todasestaciones"
+        self.url_stations = "https://opendata.aemet.es/opendata/api/valores/climatologicos/inventariostations/todasstations"
 
-    def obtener_estaciones(self):
+    def get_stations(self):
         try:
             self.log("Requesting station inventory from AEMET...")
-            resp = requests.get(self.url_estaciones, headers=self.headers)
+            resp = requests.get(self.url_stations, headers=self.headers)
             resp.raise_for_status()
             url_datos = resp.json().get("datos")
             if not url_datos:
                 raise ValueError("Data URL not found in the initial response.")
 
-            estaciones_resp = requests.get(url_datos)
-            estaciones_resp.raise_for_status()
-            estaciones_data = estaciones_resp.json()
+            stations_resp = requests.get(url_datos)
+            stations_resp.raise_for_status()
+            stations_data = stations_resp.json()
 
-            self.save_json("estaciones_aemet", estaciones_data)
-            self.log(f"Total stations downloaded: {len(estaciones_data)}")
+            self.save_json("stations_aemet", stations_data)
+            self.log(f"Total stations downloaded: {len(stations_data)}")
 
         except Exception as e:
             self.log(f"❌ Error getting stations: {e}")
 
     def ejecutar(self):
         self.log(f"Starting {self.name.upper()} download...")
-        self.obtener_estaciones()
+        self.get_stations()
         self.log(f"Finished data retrieval from {self.name.upper()}.")

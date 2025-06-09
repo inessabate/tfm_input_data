@@ -11,7 +11,7 @@ class MeteoGaliciaClient(BaseClient):
             "Meteogalicia_Observacion/RedMeteorologica/MapServer/1/query"
         )
 
-    def fetch_estaciones_reales(self):
+    def get_stations(self):
         print("⏳ Descargando estaciones desde Rede_Estacions...")
 
         params = {
@@ -50,5 +50,5 @@ class MeteoGaliciaClient(BaseClient):
 
     def ejecutar(self):
         self.log(f"Starting {self.name.upper()} download...")
-        self.fetch_estaciones_reales()
+        self.get_stations()
         self.log(f"Finished data retrieval from {self.name.upper()}.")
