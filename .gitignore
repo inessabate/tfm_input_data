@@ -4,3 +4,68 @@ data/
 .idea/
 .github/CODEOWNERS
 
+# ─── Python ────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.egg
+*.log
+*.tmp
+*.bak
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+*.env
+*.venv.*
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Pytest
+.cache/
+.pytest_cache/
+
+# MyPy / Pylint / Coverage / Profiling
+.mypy_cache/
+coverage.xml
+htmlcov/
+.prof
+*.cover
+
+# ─── PyCharm ───────────────────────────────
+.idea/
+
+# ─── VSCode ────────────────────────────────
+.vscode/
+
+# ─── MacOS ─────────────────────────────────
+.DS_Store
+
+# ─── Data / Model Outputs ─────────────────
+*.csv
+*.tsv
+*.parquet
+*.h5
+*.pkl
+*.joblib
+*.db
+*.sqlite
+*.feather
+*.json
+logs/
+outputs/
+models/
+
+# ─── Build ─────────────────────────────────
+build/
+dist/
+*.egg-info/
+*.manifest
+*.spec
+MANIFEST.in
