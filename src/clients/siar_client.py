@@ -1,18 +1,19 @@
 from src.clients.base_client import BaseClient
-
 import requests
 import os
 from dotenv import load_dotenv
+import pandas as pd
+from pathlib import Path
 
 class SiarClient(BaseClient):
-    def __init__(self, estaciones, fecha_inicial, fecha_final):
+    def __init__(self, estaciones=None, fecha_inicial=None, fecha_final=None):
         load_dotenv()
         api_key = os.getenv("API_KEY_SIAR")
         if not api_key:
             raise ValueError("No se pudo cargar API_KEY_SIAR desde .env.")
         super().__init__("siar")
         self.api_key = api_key
-        self.estaciones = estaciones
+        self.estaciones = estaciones or []
         self.fecha_inicial = fecha_inicial
         self.fecha_final = fecha_final
         self.api_url = "https://servicio.mapama.gob.es/apisiar/API/v1/Datos/Diarios/Estacion"
@@ -41,6 +42,33 @@ class SiarClient(BaseClient):
                     self.log(f"No se encontraron datos para {est}")
             except Exception as e:
                 self.log(f"❌ Error con {est}: {e}")
+
+    def descargar_estaciones_siar(self):
+        url = "https://servicio.mapama.gob.es/apisiar/api/v1/Estaciones"
+        params = {"ClaveAPI": self.api_key}
+
+        response = requests.get(url, params=params)
+        if response.status_code != 200:
+            raise RuntimeError(f"Error al obtener estaciones: {response.status_code} - {response.text}")
+
+        estaciones = response.json()
+        registros = []
+
+        for est in estaciones:
+            registros.append({
+                "id_estacion": est.get("IdEstacion"),
+                "nombre": est.get("Nombre"),
+                "latitud": est.get("Latitud"),
+                "longitud": est.get("Longitud"),
+                "provincia": est.get("Provincia"),
+                "comunidad": est.get("ComunidadAutonoma")
+            })
+
+        df = pd.DataFrame(registros)
+        output_path = Path("data/clean/estaciones_siar.xlsx")
+        output_path.parent.mkdir(parents=True, exist_ok=True)
+        df.to_excel(output_path, index=False)
+        print(f"✔ Listado de estaciones SIAR guardado en {output_path}")
 
     def ejecutar(self):
         self.log("Iniciando descarga de SIAR...")
