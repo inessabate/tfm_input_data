@@ -27,17 +27,17 @@ class MeteoGaliciaClient(BaseClient):
         while True:
             response = requests.get(self.base_url, params=params)
             if response.status_code != 200:
-                print(f"❌ Error {response.status_code}: {response.text[:300]}")
+                self.log(f"❌ Error in retrieving stations: {response.status_code} - {response.text}")
                 break
 
             data = response.json()
             features = data.get("features", [])
             if not features:
-                print("✅ Descarga finalizada.")
+                self.log(f"Download finished")
                 break
 
             all_features.extend(features)
-            print(f"🔄 Total acumulado: {len(all_features)}")
+            self.log(f"🔄Total stations retrieved: {len(features)} ")
             params["resultOffset"] += params["resultRecordCount"]
 
         result = {
@@ -45,7 +45,7 @@ class MeteoGaliciaClient(BaseClient):
             "features": all_features
         }
 
-        self.save_json("estaciones_meteogalicia", result, include_date=False)
+        self.save_json("stations_meteogalicia", result, include_date=False)
 
 
     def ejecutar(self):
