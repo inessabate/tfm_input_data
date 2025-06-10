@@ -22,12 +22,12 @@ class EuskalmetClient(BaseClient):
             if match:
                 json_text = match.group(1)
                 data = json.loads(json_text)
-                self.save_json("stations_euskalmet", data, include_date=False)
+                self.save_json(f"{self.name.upper()}_stations", data, include_date=False)
             else:
 
                 self.log("❌ Could not extract JSON from jsonCallback(...)")
         except Exception as e:
-            self.log(f"Error in retrieving stations: {e}")
+            self.log(f" ❌ Error in retrieving stations: {e}")
 
     def get_daily_observations(self):
         """
@@ -38,15 +38,19 @@ class EuskalmetClient(BaseClient):
         try:
             response = requests.get(self.url_daily_observations)
             response.raise_for_status()
-            self.save_json("observations_euskalmet", response.json(), include_date=True)
+            self.save_json(
+                f"{self.name.upper()}_observations",
+                response.json(),
+                include_date=True
+            )
         except Exception as e:
-            self.log(f"Error in retrieving daily observations: {e}")
+            self.log(f"❌ Error in retrieving daily observations: {e}")
 
     def ejecutar(self):
         """
         Execute the Euskalmet client to download stations and measurements.
         """
-        self.log(f"Starting {self.name.upper()} download...")
+        self.log(f"\nStarting {self.name.upper()} download...")
         self.get_stations()
         self.get_daily_observations()
         self.log(f"Finished data retrieval from {self.name.upper()}.")

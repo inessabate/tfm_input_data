@@ -31,13 +31,13 @@ class AemetClient(BaseClient):
             stations_resp.raise_for_status()
             stations_data = stations_resp.json()
 
-            self.save_json("stations_aemet", stations_data)
+            self.save_json(f"{self.name.upper()}_stations", stations_data)
             self.log(f"Total stations downloaded: {len(stations_data)}")
 
         except Exception as e:
             self.log(f"❌ Error getting stations: {e}")
 
     def ejecutar(self):
-        self.log(f"Starting {self.name.upper()} download...")
+        self.log(f"\nStarting {self.name.upper()} download...")
         self.get_stations()
         self.log(f"Finished data retrieval from {self.name.upper()}.")
