@@ -37,7 +37,11 @@ class SiarClient(BaseClient):
                 self.log(f"Retrieving data from station {est}")
                 datos = self.fetch_datos_estacion(est)
                 if datos:
-                    self.save_json(f"measures_{est}", datos, include_date=False)
+                    self.save_json(
+                        f"{self.name.upper()}_observations_{est}_{self.fecha_inicial}_{self.fecha_final}",
+                        datos,
+                        include_date=False
+                    )
                 else:
                     self.log(f"No data found for {est}")
             except Exception as e:

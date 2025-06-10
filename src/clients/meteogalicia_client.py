@@ -44,10 +44,10 @@ class MeteoGaliciaClient(BaseClient):
             "features": all_features
         }
 
-        self.save_json("stations_meteogalicia", result, include_date=False)
+        self.save_json(f"{self.name.upper()}_stations", result, include_date=False)
 
 
     def ejecutar(self):
-        self.log(f"Starting {self.name.upper()} download...")
+        self.log(f"\nStarting {self.name.upper()} download...")
         self.get_stations()
         self.log(f"Finished data retrieval from {self.name.upper()}.")
