@@ -12,8 +12,7 @@ class MeteoGaliciaClient(BaseClient):
         )
 
     def get_stations(self):
-        print("⏳ Descargando estaciones desde Rede_Estacions...")
-
+        self.log("⏳ Downloading stations from Rede_Estacions...")
         params = {
             "where": "1=1",
             "outFields": "*",
