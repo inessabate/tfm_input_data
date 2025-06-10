@@ -16,7 +16,7 @@ class AemetClient(BaseClient):
             "Accept": "application/json",
             "api_key": self.api_key
         }
-        self.url_stations = "https://opendata.aemet.es/opendata/api/valores/climatologicos/inventariostations/todasstations"
+        self.url_stations = "https://opendata.aemet.es/opendata/api/valores/climatologicos/inventarioestaciones/todasestaciones"
 
     def get_stations(self):
         try:
