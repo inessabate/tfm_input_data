@@ -19,7 +19,7 @@ class BaseClient:
         path = self.output_dir / full_filename
         with open(path, "w", encoding="utf-8") as f:
             json.dump(content, f, indent=2, ensure_ascii=False)
-        print(f"📁 [{self.name}] Saved: {path}")
+        print(f"[{self.name}] Saved: {path}")
 
     def log(self, message: str):
         print(f"[{self.name}] {message}")

@@ -1,3 +1,5 @@
+import time
+
 from src.clients.base_client import BaseClient
 import requests
 import os
@@ -16,7 +18,9 @@ class SiarClient(BaseClient):
         self.estaciones = estaciones or []
         self.fecha_inicial = fecha_inicial
         self.fecha_final = fecha_final
-        self.api_url = "https://servicio.mapama.gob.es/apisiar/API/v1/Datos/Diarios/Estacion"
+        self.url_observations = "https://servicio.mapama.gob.es/apisiar/API/v1/Datos/Diarios/Estacion"
+        self.url_stations = "https://servicio.mapama.gob.es/apisiar/API/v1/Info/Estaciones"
+
 
     def fetch_datos_estacion(self, estacion_id):
         params = {
@@ -25,7 +29,7 @@ class SiarClient(BaseClient):
             "FechaFinal": self.fecha_final,
             "ClaveAPI": self.api_key
         }
-        response = requests.get(self.api_url, params=params)
+        response = requests.get(self.url_observations, params=params)
         if response.status_code == 200:
             return response.json().get("Datos", [])
         else:
@@ -33,6 +37,7 @@ class SiarClient(BaseClient):
 
     def get_daily_observations(self):
         for est in self.estaciones:
+            time.sleep(30)
             try:
                 self.log(f"Retrieving data from station {est}")
                 datos = self.fetch_datos_estacion(est)
@@ -48,33 +53,26 @@ class SiarClient(BaseClient):
                 self.log(f"❌ Error at {est}: {e}")
 
     def get_siar_stations(self):
-        url = "https://servicio.mapama.gob.es/apisiar/api/v1/Estaciones"
+
         params = {"ClaveAPI": self.api_key}
 
-        response = requests.get(url, params=params)
+        response = requests.get(self.url_stations, params=params)
         if response.status_code != 200:
             raise RuntimeError(f"Error when fetching stations {response.status_code} - {response.text}")
 
-        estaciones = response.json()
-        registros = []
+        stations_data: dict = response.json()
+        stations_data: dict = stations_data["Datos"]
 
-        for est in estaciones:
-            registros.append({
-                "id_estacion": est.get("IdEstacion"),
-                "nombre": est.get("Nombre"),
-                "latitud": est.get("Latitud"),
-                "longitud": est.get("Longitud"),
-                "provincia": est.get("Provincia"),
-                "comunidad": est.get("ComunidadAutonoma")
-            })
+        # Save the stations data
+        self.save_json(
+            f"{self.name.upper()}_stations",
+            stations_data,
+            include_date=False
+        )
 
-        df = pd.DataFrame(registros)
-        output_path = Path("data/clean/estaciones_siar.xlsx")
-        output_path.parent.mkdir(parents=True, exist_ok=True)
-        df.to_excel(output_path, index=False)
-        print(f"✔ Listado de estaciones SIAR guardado en {output_path}")
 
     def ejecutar(self):
         self.log(f"Starting {self.name.upper()} download...")
+        self.get_siar_stations()
         self.get_daily_observations()
         self.log(f"Finished data retrieval from {self.name.upper()}.")
