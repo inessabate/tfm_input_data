@@ -37,7 +37,7 @@ class SiarClient(BaseClient):
 
     def get_daily_observations(self):
         for est in self.estaciones:
-            time.sleep(30)
+            time.sleep(60)
             try:
                 self.log(f"Retrieving data from station {est}")
                 datos = self.fetch_datos_estacion(est)
