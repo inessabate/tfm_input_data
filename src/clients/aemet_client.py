@@ -31,7 +31,7 @@ class AemetClient(BaseClient):
             stations_resp.raise_for_status()
             stations_data = stations_resp.json()
 
-            self.save_json(f"{self.name.upper()}_stations", stations_data)
+            self.save_json(f"{self.name.upper()}_stations", stations_data, include_date=False)
             self.log(f"Total stations downloaded: {len(stations_data)}")
 
         except Exception as e:
