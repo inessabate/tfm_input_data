@@ -1,3 +1,7 @@
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
 from datetime import datetime, timedelta
 from src.clients.siar_client import SiarClient
 from src.clients.euskalmet_client import EuskalmetClient
@@ -66,8 +70,8 @@ if __name__ == "__main__":
     elif mode == "aemet":
         run_aemet()
     elif mode == "all":
-        run_siar_for_aragon()
-        run_siar_stations()
+        #run_siar_for_aragon()
+        #run_siar_stations()
         run_euskalmet()
         run_meteogalicia()
         run_aemet()
