@@ -36,6 +36,7 @@ class SiarClient(BaseClient):
             raise RuntimeError(f"Error {response.status_code}: {response.text}")
 
     def get_daily_observations(self):
+        # TODO: Implement a way to get all stations dinamically
         for est in self.estaciones:
             time.sleep(60)
             try:
