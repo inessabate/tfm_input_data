@@ -3,3 +3,7 @@
 requests>=2.25.1
 python-dotenv>=0.21.0
 datetime
+pandas
+pyproj
+geopy
+folium
