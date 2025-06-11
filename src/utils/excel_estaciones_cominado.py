@@ -28,7 +28,7 @@ def extraer_estaciones(path_euskalmet, path_aemet, path_meteogalicia, output_exc
         props = feature["properties"]
         registros.append({
             "id_estacion": props.get("id") or props.get("codigo", ""),
-            "estacion": props.get("nombre", "Sin nombre"),
+            "estacion": props.get("nombre"),
             "latitud": coords[1],
             "longitud": coords[0],
             "fuente": "Euskalmet"
@@ -72,7 +72,7 @@ def extraer_estaciones(path_euskalmet, path_aemet, path_meteogalicia, output_exc
             print(f"❌ Error en MeteoGalicia ({attr.get('Estacion')}): {e}")
 
     df = pd.DataFrame(registros)
-    df.drop_duplicates(subset=["id_estacion", "latitud", "longitud", "fuente"], inplace=True)
+    df = df.drop_duplicates(subset=["id_estacion", "latitud", "longitud", "fuente"])
 
     # --- Añadir códigos postales usando geopy ---
     print("⏳ Consultando códigos postales (esto puede tardar ~20 minutos)...")
@@ -102,9 +102,9 @@ def extraer_estaciones(path_euskalmet, path_aemet, path_meteogalicia, output_exc
 
 if __name__ == "__main__":
     ROOT_DIR = Path(__file__).resolve().parents[2]
-    path_euskalmet = ROOT_DIR / "data" / "raw" / "euskalmet" / "estaciones_euskalmet_2025-06-08.json"
-    path_aemet = ROOT_DIR / "data" / "raw" / "aemet" / "estaciones_aemet_2025-06-08.json"
-    path_meteogalicia = ROOT_DIR / "data" / "raw" / "meteogalicia" / "estaciones_reales_meteogalicia.json"
+    path_euskalmet = ROOT_DIR / "data" / "raw" / "euskalmet" / "EUSKALMET_stations.json"
+    path_aemet = ROOT_DIR / "data" / "raw" / "aemet" / "AEMET_stations.json"
+    path_meteogalicia = ROOT_DIR / "data" / "raw" / "meteogalicia" / "METEOGALICIA_stations.json"
     output_excel = ROOT_DIR / "data" / "clean" / "estaciones_combinadas_cp.xlsx"
 
     extraer_estaciones(path_euskalmet, path_aemet, path_meteogalicia, output_excel)
