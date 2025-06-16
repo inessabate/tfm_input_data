@@ -8,6 +8,8 @@ from src.clients.euskalmet_client import EuskalmetClient
 from src.clients.meteogalicia_client import MeteoGaliciaClient
 from src.clients.aemet_client import AemetClient
 
+# Comment to commit something. Not useful at all.
+
 def run_siar_for_aragon():
     siar_stations_aragon = [
         "HU01", "HU02", "HU03", "HU04", "HU05", "HU06", "HU07", "HU08", "HU09", "HU10"
