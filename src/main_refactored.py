@@ -58,7 +58,7 @@ def run_aemet():
         print(f"❌ Unexpected error in AEMET: {e}")
 
 if __name__ == "__main__":
-    mode = "all"  # ← Change this according to what you want to run
+    mode = "meteogalicia"  # ← Change this according to what you want to run
 
 
     if mode == "siar_aragon":
@@ -72,8 +72,8 @@ if __name__ == "__main__":
     elif mode == "aemet":
         run_aemet()
     elif mode == "all":
-        #run_siar_for_aragon()
-        #run_siar_stations()
+        run_siar_for_aragon()
+        run_siar_stations()
         run_euskalmet()
         run_meteogalicia()
         run_aemet()
