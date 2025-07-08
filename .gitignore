@@ -70,3 +70,4 @@ dist/
 *.spec
 MANIFEST.in.env.example
 README_instructions
+.env.example
