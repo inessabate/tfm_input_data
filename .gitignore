@@ -70,4 +70,3 @@ dist/
 *.spec
 MANIFEST.incsv_duckdb/
 .env.example
-.env.example
