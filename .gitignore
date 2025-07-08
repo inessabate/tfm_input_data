@@ -69,3 +69,4 @@ dist/
 *.manifest
 *.spec
 MANIFEST.in.env.example
+README_instructions
