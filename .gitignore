@@ -68,4 +68,6 @@ dist/
 *.egg-info/
 *.manifest
 *.spec
-MANIFEST.in.env.example
+MANIFEST.incsv_duckdb/
+.env.example
+.env.example
